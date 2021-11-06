@@ -1,14 +1,15 @@
 function HTMLActuator() {
   this.tileContainer    = document.querySelector(".tile-container");
-  this.scoreContainer   = document.querySelector(".score-container");
-  this.scorePoints      = document.querySelector(".score-points");
-  this.bestContainer    = document.querySelector(".best-container");
-  this.bestPoints       = document.querySelector(".best-points");
+  this.scoreContainer   = document.querySelector(".score-points");
+  this.scoreLevel       = document.querySelector(".score-level");
+  this.bestContainer    = document.querySelector(".best-points");
+  this.bestLevelC       = document.querySelector(".best-level");
+  this.rankContainer    = document.querySelector(".rank-wrapper");
   this.messageContainer = document.querySelector(".game-message");
   this.sharingContainer = document.querySelector(".score-sharing");
 
   this.score = 0;
-  this.points = 0;
+  this.level = 2;
 }
 
 HTMLActuator.prototype.actuate = function (grid, metadata) {
@@ -24,9 +25,9 @@ HTMLActuator.prototype.actuate = function (grid, metadata) {
         }
       });
     });
-
-    self.updateScore(metadata.score, metadata.points);
-    self.updateBestScore(metadata.bestScore, metadata.bestPoints);
+    
+    self.updateBestScore(metadata.bestScore, metadata.bestLevel, metadata.level);
+    self.updateScore(metadata.score, metadata.level);
 
     if (metadata.terminated) {
       if (metadata.over) {
@@ -69,7 +70,7 @@ HTMLActuator.prototype.addTile = function (tile) {
   inner.classList.add("tile-inner");
   // inner.textContent = tile.value;
   // img.style.width = '100%';
-  img.src = "https://2048-cupcake.github.io/2048cupcakes/img/" + tile.value + ".jpg";
+  img.src = "style/img/" + tile.value + ".jpg";
   inner.appendChild(img);
 
   if (tile.previousPosition) {
@@ -111,51 +112,61 @@ HTMLActuator.prototype.positionClass = function (position) {
   return "tile-position-" + position.x + "-" + position.y;
 };
 
-HTMLActuator.prototype.updateScore = function (score, points) {
+HTMLActuator.prototype.updateScore = function (score, level) {
   this.clearContainer(this.scoreContainer);
-  this.clearContainer(this.scorePoints);
+  this.clearContainer(this.scoreLevel);
+
+  // RANK UPDATE
+  var resetDivP = this.rankContainer.getElementsByClassName("tile-score-" + this.level)[0];
+  resetDivP.classList.remove("now");
+  var setDivP = this.rankContainer.getElementsByClassName("tile-score-" + level)[0];
+  setDivP.classList.add("now");  
 
   var difference = score - this.score;
+  var levelDifference = level - this.level;
   this.score = score;
-	var pointDifference = points - this.points;
-	this.points = points;
+  this.scoreLevel.classList.remove('tile-score-' + this.level);
+  this.level = level;
+  this.scoreLevel.classList.add('tile-score-' + level);
 
-  // this.scoreContainer.textContent = this.score;
-	this.scorePoints.textContent = this.points;
-  this.scoreContainer.textContent = Localize( "p" + this.score );
+  this.scoreContainer.textContent = this.score;
+  
+  // if (levelDifference > 0) {
+  //   var addition = document.createElement("div");
+  //   addition.classList.add("score-addition");
+  //   addition.textContent = caption( this.level );
+  //   this.scoreLevel.appendChild(addition);
+  // }
 
   if (difference > 0) {
-    var addition = document.createElement("div");
-    addition.classList.add("score-addition");
-    // addition.textContent = "+" + difference;
-    addition.textContent = Localize( "p" + this.score );
-
-    this.scoreContainer.appendChild(addition);
+    var punti = document.createElement("div");
+    punti.classList.add("score-addition");
+    punti.textContent = "+" + difference;
+    this.scoreContainer.appendChild(punti);
   }
 
-	if (pointDifference > 0) {
-		var punti = document.createElement("div");
-		punti.classList.add("score-addition");
-		punti.textContent = "+" + pointDifference;
-		this.scorePoints.appendChild(punti);
-	}
 };
 
-HTMLActuator.prototype.updateBestScore = function (bestScore, bestPoints) {
-  this.bestContainer.textContent = Localize( "p" + bestScore);
-  this.bestPoints.textContent = bestPoints;
+HTMLActuator.prototype.updateBestScore = function (bestScore, bestLevel, level) {
+  // this.bestLevel.textContent = caption(bestLevel);
+  this.bestLevelC.classList.add("tile-score-" + bestLevel);
+  this.bestContainer.textContent = bestScore;
 
-	// var difference = score - this.score;
-	// this.score = score;
+  // RANK UPDATE
+  var resetDivP = this.rankContainer.getElementsByClassName("tile-score-" + this.level)[0];
+  resetDivP.classList.remove("weired");
+  var resetDiv = this.rankContainer.getElementsByClassName("tile-score-" + bestLevel)[0];
+  resetDiv.classList.add("weired");
+
 };
 
 HTMLActuator.prototype.message = function (won) {
   var type    = won ? "game-won" : "game-over";
-  var message = Localize(type);
+  var message = won ? "You win!" : "Game over!";
 
   this.messageContainer.classList.add(type);
   this.messageContainer.getElementsByTagName("p")[0].textContent = message;
-
+  
   this.clearContainer(this.sharingContainer);
   this.sharingContainer.appendChild(this.scoreTweetButton());
   twttr.widgets.load();
@@ -172,11 +183,11 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   tweet.classList.add("twitter-share-button");
   tweet.setAttribute("href", "https://twitter.com/share");
   tweet.setAttribute("data-via", "giampiex");
-  tweet.setAttribute("data-url", "http://git.io/cupcakes");
-  tweet.setAttribute("data-counturl", "http://0x0800.github.io/2048-CUPCAKES");
+  tweet.setAttribute("data-url", "http://git.io/mundial");
+  tweet.setAttribute("data-counturl", "http://0x0800.github.io/2048-MUNDIAL");
   tweet.textContent = "Tweet";
 
-  var text = Localize("tweet1") + Localize( this.score ).toUpperCase() + '", ' + this.points + " Kcal " + Localize("tweet2");
+  var text = "I scored " + this.score + "-" + caption(this.level).toUpperCase() + " at 2048-MUNDIAL #2048game #MUNDIAL";
   tweet.setAttribute("data-text", text);
 
   return tweet;
