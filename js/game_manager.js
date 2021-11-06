@@ -1,1 +1,377 @@
-var _0xe53c=["\x73\x69\x7A\x65","\x69\x6E\x70\x75\x74\x4D\x61\x6E\x61\x67\x65\x72","\x73\x74\x6F\x72\x61\x67\x65\x4D\x61\x6E\x61\x67\x65\x72","\x61\x63\x74\x75\x61\x74\x6F\x72","\x73\x74\x61\x72\x74\x54\x69\x6C\x65\x73","\x6D\x6F\x76\x65","\x62\x69\x6E\x64","\x6F\x6E","\x72\x65\x73\x74\x61\x72\x74","\x6B\x65\x65\x70\x50\x6C\x61\x79\x69\x6E\x67","\x73\x65\x74\x75\x70","\x70\x72\x6F\x74\x6F\x74\x79\x70\x65","\x63\x6C\x65\x61\x72\x47\x61\x6D\x65\x53\x74\x61\x74\x65","\x63\x6F\x6E\x74\x69\x6E\x75\x65\x47\x61\x6D\x65","\x63\x72\x6F\x77\x64","\x67\x72\x69\x64","\x73\x63\x6F\x72\x65","\x70\x6F\x69\x6E\x74\x73","\x6F\x76\x65\x72","\x77\x6F\x6E","\x61\x63\x74\x75\x61\x74\x65","\x70\x6F\x77","\x69\x6E\x73\x65\x72\x74\x54\x69\x6C\x65","\x69\x73\x47\x61\x6D\x65\x54\x65\x72\x6D\x69\x6E\x61\x74\x65\x64","\x67\x65\x74\x47\x61\x6D\x65\x53\x74\x61\x74\x65","\x63\x65\x6C\x6C\x73","\x61\x64\x64\x53\x74\x61\x72\x74\x54\x69\x6C\x65\x73","\x6C\x6F\x63\x61\x6C\x69\x7A\x65\x45\x6C\x65\x6D\x65\x6E\x74\x73","\x66\x69\x6C\x6C\x4C\x65\x67\x65\x6E\x64","\x67\x61\x6D\x65\x2D\x69\x6E\x74\x72\x6F","\x72\x65\x73\x74\x61\x72\x74\x2D\x62\x75\x74\x74\x6F\x6E","\x72\x65\x74\x72\x79\x2D\x62\x75\x74\x74\x6F\x6E","\x6B\x65\x65\x70\x2D\x70\x6C\x61\x79\x69\x6E\x67\x2D\x62\x75\x74\x74\x6F\x6E","\x67\x61\x6D\x65\x2D\x65\x78\x70\x6C\x61\x6E\x61\x74\x69\x6F\x6E","\x64\x69\x73\x63\x6C\x61\x69\x6D\x65\x72","\x74\x69\x6C\x65\x2D\x6C\x65\x67\x65\x6E\x64","\x63\x72\x65\x64\x69\x74\x73","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x73\x42\x79\x43\x6C\x61\x73\x73\x4E\x61\x6D\x65","\x64\x69\x76","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x69\x6D\x67","\x70","\x6C\x65\x67\x65\x6E\x64\x2D\x72\x6F\x77","\x61\x64\x64","\x63\x6C\x61\x73\x73\x4C\x69\x73\x74","\x6C\x65\x67\x65\x6E\x64\x2D\x67\x72\x69\x64","\x6C\x65\x67\x65\x6E\x64\x2D\x63\x65\x6C\x6C","\x63\x65\x6C\x6C\x2D","\x73\x72\x63","\x69\x6D\x67\x2F","\x2E\x6A\x70\x67","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x74\x65\x78\x74\x43\x6F\x6E\x74\x65\x6E\x74","\x20\x20\x28","\x20\x4B\x63\x61\x6C\x29","\x61\x64\x64\x52\x61\x6E\x64\x6F\x6D\x54\x69\x6C\x65","\x63\x65\x6C\x6C\x73\x41\x76\x61\x69\x6C\x61\x62\x6C\x65","\x72\x61\x6E\x64\x6F\x6D","\x72\x61\x6E\x64\x6F\x6D\x41\x76\x61\x69\x6C\x61\x62\x6C\x65\x43\x65\x6C\x6C","\x67\x65\x74\x42\x65\x73\x74\x53\x63\x6F\x72\x65","\x73\x65\x74\x42\x65\x73\x74\x53\x63\x6F\x72\x65","\x67\x65\x74\x42\x65\x73\x74\x50\x6F\x69\x6E\x74\x73","\x73\x65\x74\x42\x65\x73\x74\x50\x6F\x69\x6E\x74\x73","\x73\x65\x72\x69\x61\x6C\x69\x7A\x65","\x73\x65\x74\x47\x61\x6D\x65\x53\x74\x61\x74\x65","\x70\x72\x65\x70\x61\x72\x65\x54\x69\x6C\x65\x73","\x6D\x65\x72\x67\x65\x64\x46\x72\x6F\x6D","\x73\x61\x76\x65\x50\x6F\x73\x69\x74\x69\x6F\x6E","\x65\x61\x63\x68\x43\x65\x6C\x6C","\x6D\x6F\x76\x65\x54\x69\x6C\x65","\x79","\x78","\x75\x70\x64\x61\x74\x65\x50\x6F\x73\x69\x74\x69\x6F\x6E","\x67\x65\x74\x56\x65\x63\x74\x6F\x72","\x62\x75\x69\x6C\x64\x54\x72\x61\x76\x65\x72\x73\x61\x6C\x73","\x63\x65\x6C\x6C\x43\x6F\x6E\x74\x65\x6E\x74","\x66\x69\x6E\x64\x46\x61\x72\x74\x68\x65\x73\x74\x50\x6F\x73\x69\x74\x69\x6F\x6E","\x6E\x65\x78\x74","\x76\x61\x6C\x75\x65","\x72\x65\x6D\x6F\x76\x65\x54\x69\x6C\x65","\x66\x61\x72\x74\x68\x65\x73\x74","\x70\x6F\x73\x69\x74\x69\x6F\x6E\x73\x45\x71\x75\x61\x6C","\x66\x6F\x72\x45\x61\x63\x68","\x6D\x6F\x76\x65\x73\x41\x76\x61\x69\x6C\x61\x62\x6C\x65","\x70\x75\x73\x68","\x72\x65\x76\x65\x72\x73\x65","\x77\x69\x74\x68\x69\x6E\x42\x6F\x75\x6E\x64\x73","\x63\x65\x6C\x6C\x41\x76\x61\x69\x6C\x61\x62\x6C\x65","\x74\x69\x6C\x65\x4D\x61\x74\x63\x68\x65\x73\x41\x76\x61\x69\x6C\x61\x62\x6C\x65"];function GameManager(_0xe769x2,_0xe769x3,_0xe769x4,_0xe769x5){this[_0xe53c[0]]= _0xe769x2;this[_0xe53c[1]]=  new _0xe769x3;this[_0xe53c[2]]=  new _0xe769x5;this[_0xe53c[3]]=  new _0xe769x4;this[_0xe53c[4]]= 2;this[_0xe53c[1]][_0xe53c[7]](_0xe53c[5],this[_0xe53c[5]][_0xe53c[6]](this));this[_0xe53c[1]][_0xe53c[7]](_0xe53c[8],this[_0xe53c[8]][_0xe53c[6]](this));this[_0xe53c[1]][_0xe53c[7]](_0xe53c[9],this[_0xe53c[9]][_0xe53c[6]](this));this[_0xe53c[10]]()}function kcal(_0xe769x7){var kcal=[];kcal[2]= 200;kcal[4]= 250;kcal[8]= 320;kcal[16]= 400;kcal[32]= 500;kcal[64]= 650;kcal[128]= 820;kcal[256]= 1000;kcal[512]= 1200;kcal[1024]= 1500;kcal[2048]= 2000;kcal[4096]= 3000;kcal[8192]= 5000;return kcal[_0xe769x7]}GameManager[_0xe53c[11]][_0xe53c[8]]= function(){this[_0xe53c[2]][_0xe53c[12]]();this[_0xe53c[3]][_0xe53c[13]]();this[_0xe53c[10]]()};GameManager[_0xe53c[11]][_0xe53c[14]]= function(){this[_0xe53c[2]][_0xe53c[12]]();this[_0xe53c[3]][_0xe53c[13]]();this[_0xe53c[15]]=  new Grid(this[_0xe53c[0]]);this[_0xe53c[16]]= 0;this[_0xe53c[17]]= 0;this[_0xe53c[18]]= false;this[_0xe53c[19]]= false;this[_0xe53c[9]]= false;this[_0xe53c[20]]();var _0xe769x8=0;for(var _0xe769x9=0;_0xe769x9< 3;_0xe769x9++){for(var _0xe769xa=0;_0xe769xa< 4;_0xe769xa++){_0xe769x8++;var _0xe769xb=Math[_0xe53c[21]](2,_0xe769x8);var _0xe769xc= new Tile({x:_0xe769xa,y:_0xe769x9},_0xe769xb);if(_0xe769xb<= 8192){this[_0xe53c[15]][_0xe53c[22]](_0xe769xc)}}}};GameManager[_0xe53c[11]][_0xe53c[9]]= function(){this[_0xe53c[9]]= true;this[_0xe53c[3]][_0xe53c[13]]()};GameManager[_0xe53c[11]][_0xe53c[23]]= function(){if(this[_0xe53c[18]]|| (this[_0xe53c[19]]&&  !this[_0xe53c[9]])){return true}else {return false}};GameManager[_0xe53c[11]][_0xe53c[10]]= function(){var _0xe769xd=this[_0xe53c[2]][_0xe53c[24]]();if(_0xe769xd){this[_0xe53c[15]]=  new Grid(_0xe769xd[_0xe53c[15]][_0xe53c[0]],_0xe769xd[_0xe53c[15]][_0xe53c[25]]);this[_0xe53c[16]]= _0xe769xd[_0xe53c[16]];this[_0xe53c[17]]= _0xe769xd[_0xe53c[17]];this[_0xe53c[18]]= _0xe769xd[_0xe53c[18]];this[_0xe53c[19]]= _0xe769xd[_0xe53c[19]];this[_0xe53c[9]]= _0xe769xd[_0xe53c[9]]}else {this[_0xe53c[15]]=  new Grid(this[_0xe53c[0]]);this[_0xe53c[16]]= 0;this[_0xe53c[17]]= 0;this[_0xe53c[18]]= false;this[_0xe53c[19]]= false;this[_0xe53c[9]]= false;this[_0xe53c[26]]()};this[_0xe53c[27]]();this[_0xe53c[28]]();this[_0xe53c[20]]()};GameManager[_0xe53c[11]][_0xe53c[27]]= function(){var _0xe769xe=[_0xe53c[29],_0xe53c[30],_0xe53c[31],_0xe53c[32],_0xe53c[33],_0xe53c[34],_0xe53c[35],_0xe53c[36]];for(var _0xe769x9 in _0xe769xe){LocalizeElement(_0xe769xe[_0xe769x9])}};GameManager[_0xe53c[11]][_0xe53c[28]]= function(){var _0xe769xf=document[_0xe53c[37]](_0xe53c[35]);for(var _0xe769x9=1;_0xe769x9<= 13;_0xe769x9++){var _0xe769x7=Math[_0xe53c[21]](2,_0xe769x9);var _0xe769x10=document[_0xe53c[39]](_0xe53c[38]);var _0xe769x11=document[_0xe53c[39]](_0xe53c[38]);var _0xe769x12=document[_0xe53c[39]](_0xe53c[38]);var _0xe769x13=document[_0xe53c[39]](_0xe53c[40]);var _0xe769x14=document[_0xe53c[39]](_0xe53c[41]);_0xe769x10[_0xe53c[44]][_0xe53c[43]](_0xe53c[42]);_0xe769x11[_0xe53c[44]][_0xe53c[43]](_0xe53c[45]);_0xe769x12[_0xe53c[44]][_0xe53c[43]](_0xe53c[46]);_0xe769x12[_0xe53c[44]][_0xe53c[43]](_0xe53c[47]+ _0xe769x7);_0xe769x13[_0xe53c[48]]= _0xe53c[49]+ _0xe769x7+ _0xe53c[50];_0xe769x12[_0xe53c[51]](_0xe769x13);_0xe769x11[_0xe53c[51]](_0xe769x12);_0xe769x10[_0xe53c[51]](_0xe769x11);_0xe769x14[_0xe53c[52]]= Localize(_0xe769x7)+ _0xe53c[53]+ kcal(_0xe769x7)+ _0xe53c[54];_0xe769x10[_0xe53c[51]](_0xe769x14);_0xe769xf[0][_0xe53c[51]](_0xe769x10)}};GameManager[_0xe53c[11]][_0xe53c[26]]= function(){for(var _0xe769x9=0;_0xe769x9< this[_0xe53c[4]];_0xe769x9++){this[_0xe53c[55]]()}};GameManager[_0xe53c[11]][_0xe53c[55]]= function(){if(this[_0xe53c[15]][_0xe53c[56]]()){var _0xe769xb=Math[_0xe53c[57]]()< 0.9?2:4;var _0xe769xc= new Tile(this[_0xe53c[15]][_0xe53c[58]](),_0xe769xb);this[_0xe53c[15]][_0xe53c[22]](_0xe769xc)}};GameManager[_0xe53c[11]][_0xe53c[20]]= function(){if(this[_0xe53c[2]][_0xe53c[59]]()< this[_0xe53c[16]]){this[_0xe53c[2]][_0xe53c[60]](this[_0xe53c[16]])};if(this[_0xe53c[2]][_0xe53c[61]]()< this[_0xe53c[17]]){this[_0xe53c[2]][_0xe53c[62]](this[_0xe53c[17]])};if(this[_0xe53c[18]]){this[_0xe53c[2]][_0xe53c[12]]()}else {this[_0xe53c[2]][_0xe53c[64]](this[_0xe53c[63]]())};this[_0xe53c[3]][_0xe53c[20]](this[_0xe53c[15]],{score:this[_0xe53c[16]],points:this[_0xe53c[17]],over:this[_0xe53c[18]],won:this[_0xe53c[19]],bestScore:this[_0xe53c[2]][_0xe53c[59]](),bestPoints:this[_0xe53c[2]][_0xe53c[61]](),terminated:this[_0xe53c[23]]()})};GameManager[_0xe53c[11]][_0xe53c[63]]= function(){return {grid:this[_0xe53c[15]][_0xe53c[63]](),score:this[_0xe53c[16]],points:this[_0xe53c[17]],over:this[_0xe53c[18]],won:this[_0xe53c[19]],keepPlaying:this[_0xe53c[9]]}};GameManager[_0xe53c[11]][_0xe53c[65]]= function(){this[_0xe53c[15]][_0xe53c[68]](function(_0xe769x15,_0xe769x16,_0xe769xc){if(_0xe769xc){_0xe769xc[_0xe53c[66]]= null;_0xe769xc[_0xe53c[67]]()}})};GameManager[_0xe53c[11]][_0xe53c[69]]= function(_0xe769xc,_0xe769x12){this[_0xe53c[15]][_0xe53c[25]][_0xe769xc[_0xe53c[71]]][_0xe769xc[_0xe53c[70]]]= null;this[_0xe53c[15]][_0xe53c[25]][_0xe769x12[_0xe53c[71]]][_0xe769x12[_0xe53c[70]]]= _0xe769xc;_0xe769xc[_0xe53c[72]](_0xe769x12)};GameManager[_0xe53c[11]][_0xe53c[5]]= function(_0xe769x17){var _0xe769x18=this;if(this[_0xe53c[23]]()){return};var _0xe769x12,_0xe769xc;var _0xe769x19=this[_0xe53c[73]](_0xe769x17);var _0xe769x1a=this[_0xe53c[74]](_0xe769x19);var _0xe769x1b=false;this[_0xe53c[65]]();_0xe769x1a[_0xe53c[71]][_0xe53c[82]](function(_0xe769x15){_0xe769x1a[_0xe53c[70]][_0xe53c[82]](function(_0xe769x16){_0xe769x12= {x:_0xe769x15,y:_0xe769x16};_0xe769xc= _0xe769x18[_0xe53c[15]][_0xe53c[75]](_0xe769x12);if(_0xe769xc){var _0xe769x1c=_0xe769x18[_0xe53c[76]](_0xe769x12,_0xe769x19);var _0xe769x1d=_0xe769x18[_0xe53c[15]][_0xe53c[75]](_0xe769x1c[_0xe53c[77]]);if(_0xe769x1d&& _0xe769x1d[_0xe53c[78]]=== _0xe769xc[_0xe53c[78]]&&  !_0xe769x1d[_0xe53c[66]]){var _0xe769x1e= new Tile(_0xe769x1c[_0xe53c[77]],_0xe769xc[_0xe53c[78]]* 2);_0xe769x1e[_0xe53c[66]]= [_0xe769xc,_0xe769x1d];_0xe769x18[_0xe53c[15]][_0xe53c[22]](_0xe769x1e);_0xe769x18[_0xe53c[15]][_0xe53c[79]](_0xe769xc);_0xe769xc[_0xe53c[72]](_0xe769x1c[_0xe53c[77]]);_0xe769x18[_0xe53c[17]]+= kcal(_0xe769xc[_0xe53c[78]])* 2;if(_0xe769x1e[_0xe53c[78]]> _0xe769x18[_0xe53c[16]]){_0xe769x18[_0xe53c[16]]= _0xe769x1e[_0xe53c[78]]};if(_0xe769x1e[_0xe53c[78]]=== 2048|| _0xe769x1e[_0xe53c[78]]=== 2048){_0xe769x18[_0xe53c[19]]= true}}else {_0xe769x18[_0xe53c[69]](_0xe769xc,_0xe769x1c[_0xe53c[80]])};if(!_0xe769x18[_0xe53c[81]](_0xe769x12,_0xe769xc)){_0xe769x1b= true}}})});if(_0xe769x1b){this[_0xe53c[55]]();if(!this[_0xe53c[83]]()){this[_0xe53c[18]]= true};this[_0xe53c[20]]()}};GameManager[_0xe53c[11]][_0xe53c[73]]= function(_0xe769x17){var _0xe769x1f={0:{x:0,y:-1},1:{x:1,y:0},2:{x:0,y:1},3:{x:-1,y:0}};return _0xe769x1f[_0xe769x17]};GameManager[_0xe53c[11]][_0xe53c[74]]= function(_0xe769x19){var _0xe769x1a={x:[],y:[]};for(var _0xe769x20=0;_0xe769x20< this[_0xe53c[0]];_0xe769x20++){_0xe769x1a[_0xe53c[71]][_0xe53c[84]](_0xe769x20);_0xe769x1a[_0xe53c[70]][_0xe53c[84]](_0xe769x20)};if(_0xe769x19[_0xe53c[71]]=== 1){_0xe769x1a[_0xe53c[71]]= _0xe769x1a[_0xe53c[71]][_0xe53c[85]]()};if(_0xe769x19[_0xe53c[70]]=== 1){_0xe769x1a[_0xe53c[70]]= _0xe769x1a[_0xe53c[70]][_0xe53c[85]]()};return _0xe769x1a};GameManager[_0xe53c[11]][_0xe53c[76]]= function(_0xe769x12,_0xe769x19){var _0xe769x21;do{_0xe769x21= _0xe769x12;_0xe769x12= {x:_0xe769x21[_0xe53c[71]]+ _0xe769x19[_0xe53c[71]],y:_0xe769x21[_0xe53c[70]]+ _0xe769x19[_0xe53c[70]]}}while(this[_0xe53c[15]][_0xe53c[86]](_0xe769x12)&& this[_0xe53c[15]][_0xe53c[87]](_0xe769x12));;return {farthest:_0xe769x21,next:_0xe769x12}};GameManager[_0xe53c[11]][_0xe53c[83]]= function(){return this[_0xe53c[15]][_0xe53c[56]]()|| this[_0xe53c[88]]()};GameManager[_0xe53c[11]][_0xe53c[88]]= function(){var _0xe769x18=this;var _0xe769xc;for(var _0xe769x15=0;_0xe769x15< this[_0xe53c[0]];_0xe769x15++){for(var _0xe769x16=0;_0xe769x16< this[_0xe53c[0]];_0xe769x16++){_0xe769xc= this[_0xe53c[15]][_0xe53c[75]]({x:_0xe769x15,y:_0xe769x16});if(_0xe769xc){for(var _0xe769x17=0;_0xe769x17< 4;_0xe769x17++){var _0xe769x19=_0xe769x18[_0xe53c[73]](_0xe769x17);var _0xe769x12={x:_0xe769x15+ _0xe769x19[_0xe53c[71]],y:_0xe769x16+ _0xe769x19[_0xe53c[70]]};var _0xe769x22=_0xe769x18[_0xe53c[15]][_0xe53c[75]](_0xe769x12);if(_0xe769x22&& _0xe769x22[_0xe53c[78]]=== _0xe769xc[_0xe53c[78]]){return true}}}}};return false};GameManager[_0xe53c[11]][_0xe53c[81]]= function(_0xe769x23,_0xe769x24){return _0xe769x23[_0xe53c[71]]=== _0xe769x24[_0xe53c[71]]&& _0xe769x23[_0xe53c[70]]=== _0xe769x24[_0xe53c[70]]}
+function GameManager(size, InputManager, Actuator, StorageManager) {
+  this.size           = size; // Size of the grid
+  this.inputManager   = new InputManager;
+  this.storageManager = new StorageManager;
+  this.actuator       = new Actuator;
+
+  this.startTiles     = 2;
+
+/*   this.inputManager.on("crowd", this.crowd.bind(this)); */
+  this.inputManager.on("move", this.move.bind(this));
+  this.inputManager.on("restart", this.restart.bind(this));
+  this.inputManager.on("keepPlaying", this.keepPlaying.bind(this));
+
+  this.setup();
+}
+
+
+// Set Prices
+function kcal(exp) {
+  var kcal = [];
+  kcal[2]=200;
+  kcal[4]=250;
+  kcal[8]=320;
+  kcal[16]=400;
+  kcal[32]=500;
+  kcal[64]=650;
+  kcal[128]=820;
+  kcal[256]=1000;
+  kcal[512]=1200;
+  kcal[1024]=1500;
+  kcal[2048]=2000;
+  kcal[4096]=3000;
+  kcal[8192]=5000;
+  return kcal[exp];
+}
+
+// Restart the game
+GameManager.prototype.restart = function () {
+  this.storageManager.clearGameState();
+  this.actuator.continueGame(); // Clear the game won/lost message
+  this.setup();
+};
+
+// Crowd board
+GameManager.prototype.crowd = function () {
+  this.storageManager.clearGameState();
+  this.actuator.continueGame(); // Clear the game won/lost message
+  this.grid        = new Grid(this.size);
+  this.score       = 0;
+  this.points      = 0;
+  this.over        = false;
+  this.won         = false;
+  this.keepPlaying = false;
+  this.actuate();
+  var counter = 0;
+  for (var i = 0; i < 3; i++) {
+    for (var j = 0; j < 4; j++) {
+      counter++;
+      var value = Math.pow(2, counter);
+      var tile = new Tile({ x: j, y: i }, value);
+      if (value <= 8192) this.grid.insertTile(tile);
+    }
+  }
+};
+
+// Keep playing after winning (allows going over 2048)
+GameManager.prototype.keepPlaying = function () {
+  this.keepPlaying = true;
+  this.actuator.continueGame(); // Clear the game won/lost message
+};
+
+// Return true if the game is lost, or has won and the user hasn't kept playing
+GameManager.prototype.isGameTerminated = function () {
+  if (this.over || (this.won && !this.keepPlaying)) {
+    return true;
+  } else {
+    return false;
+  }
+};
+
+// Set up the game
+GameManager.prototype.setup = function () {
+  var previousState = this.storageManager.getGameState();
+
+  // Reload the game from a previous game if present
+  if (previousState) {
+    this.grid        = new Grid(previousState.grid.size,
+                                previousState.grid.cells); // Reload grid
+    this.score       = previousState.score;
+    this.points      = previousState.points;
+    this.over        = previousState.over;
+    this.won         = previousState.won;
+    this.keepPlaying = previousState.keepPlaying;
+  } else {
+    this.grid        = new Grid(this.size);
+		this.score       = 0;
+		this.points      = 0;
+    this.over        = false;
+    this.won         = false;
+    this.keepPlaying = false;
+
+    // Add the initial tiles
+    this.addStartTiles();
+  }
+
+  // Localize page elements
+  this.localizeElements();
+
+  // Fill legend
+  this.fillLegend();
+
+  // Update the actuator
+  this.actuate();
+};
+
+// Passive localization of page elements
+GameManager.prototype.localizeElements = function () {
+    var elementArray = [
+        'game-intro',
+        'restart-button',
+        'retry-button',
+        'keep-playing-button',
+        'game-explanation',
+        'disclaimer',
+        'tile-legend',
+        'credits'
+      ];
+    for (var i in elementArray) {
+      LocalizeElement(elementArray[i]);
+    }
+  };
+
+// Fill legend
+GameManager.prototype.fillLegend = function () {
+
+  var legend = document.getElementsByClassName("tile-legend");
+  for (var i = 1; i <= 13; i++) {
+    var exp = Math.pow(2, i);
+    var row = document.createElement("div");
+    var grid = document.createElement("div");
+    var cell = document.createElement("div");
+    var img = document.createElement("img");
+    var p = document.createElement("p");
+    row.classList.add('legend-row');
+    grid.classList.add('legend-grid');
+    cell.classList.add('legend-cell');
+    cell.classList.add('cell-' + exp);
+    img.src = "https://2048-cupcake.github.io/2048cupcakes/img/" + exp + ".jpg";
+    cell.appendChild(img);
+    grid.appendChild(cell);
+    row.appendChild(grid);
+    p.textContent = Localize(exp) + "  (" + kcal(exp) + " Kcal)";
+    row.appendChild(p);
+
+    legend[0].appendChild(row);
+  }
+
+};
+
+// Set up the initial tiles to start the game with
+GameManager.prototype.addStartTiles = function () {
+  for (var i = 0; i < this.startTiles; i++) {
+    this.addRandomTile();
+  }
+};
+
+// Adds a tile in a random position
+GameManager.prototype.addRandomTile = function () {
+  if (this.grid.cellsAvailable()) {
+    var value = Math.random() < 0.9 ? 2 : 4;
+    var tile = new Tile(this.grid.randomAvailableCell(), value);
+
+    this.grid.insertTile(tile);
+  }
+};
+
+// Sends the updated grid to the actuator
+GameManager.prototype.actuate = function () {
+  if (this.storageManager.getBestScore() < this.score) {
+    this.storageManager.setBestScore(this.score);
+  }
+	if (this.storageManager.getBestPoints() < this.points) {
+    this.storageManager.setBestPoints(this.points);
+  }
+  // Clear the state when the game is over (game over only, not win)
+  if (this.over) {
+    this.storageManager.clearGameState();
+  } else {
+    this.storageManager.setGameState(this.serialize());
+  }
+
+  this.actuator.actuate(this.grid, {
+		score:      this.score,
+		points:     this.points,
+    over:       this.over,
+    won:        this.won,
+    bestScore:  this.storageManager.getBestScore(),
+    bestPoints: this.storageManager.getBestPoints(),
+    terminated: this.isGameTerminated()
+  });
+
+};
+
+// Represent the current game as an object
+GameManager.prototype.serialize = function () {
+  return {
+    grid:        this.grid.serialize(),
+    score:       this.score,
+    points:      this.points,
+    over:        this.over,
+    won:         this.won,
+    keepPlaying: this.keepPlaying
+  };
+};
+
+// Save all tile positions and remove merger info
+GameManager.prototype.prepareTiles = function () {
+  this.grid.eachCell(function (x, y, tile) {
+    if (tile) {
+      tile.mergedFrom = null;
+      tile.savePosition();
+    }
+  });
+};
+
+// Move a tile and its representation
+GameManager.prototype.moveTile = function (tile, cell) {
+  this.grid.cells[tile.x][tile.y] = null;
+  this.grid.cells[cell.x][cell.y] = tile;
+  tile.updatePosition(cell);
+};
+
+// Move tiles on the grid in the specified direction
+GameManager.prototype.move = function (direction) {
+  // 0: up, 1: right, 2: down, 3: left
+  var self = this;
+
+  if (this.isGameTerminated()) return; // Don't do anything if the game's over
+
+  var cell, tile;
+
+  var vector     = this.getVector(direction);
+  var traversals = this.buildTraversals(vector);
+  var moved      = false;
+
+  // Save the current tile positions and remove merger information
+  this.prepareTiles();
+
+  // Traverse the grid in the right direction and move tiles
+  traversals.x.forEach(function (x) {
+    traversals.y.forEach(function (y) {
+      cell = { x: x, y: y };
+      tile = self.grid.cellContent(cell);
+
+      if (tile) {
+        var positions = self.findFarthestPosition(cell, vector);
+        var next      = self.grid.cellContent(positions.next);
+
+        // Only one merger per row traversal?
+        if (next && next.value === tile.value && !next.mergedFrom) {
+          var merged = new Tile(positions.next, tile.value * 2);
+          merged.mergedFrom = [tile, next];
+
+          self.grid.insertTile(merged);
+          self.grid.removeTile(tile);
+
+          // Converge the two tiles' positions
+          tile.updatePosition(positions.next);
+
+          // Update the score
+          self.points += kcal(tile.value) * 2;
+          if (merged.value > self.score) self.score = merged.value;
+
+          // The mighty 2048 tile
+          if (merged.value === 2048 || merged.value === 2048) self.won = true;
+        } else {
+          self.moveTile(tile, positions.farthest);
+        }
+
+        if (!self.positionsEqual(cell, tile)) {
+          moved = true; // The tile moved from its original cell!
+        }
+      }
+    });
+  });
+
+  if (moved) {
+    this.addRandomTile();
+
+    if (!this.movesAvailable()) {
+      this.over = true; // Game over!
+    }
+
+    this.actuate();
+  }
+};
+
+// Get the vector representing the chosen direction
+GameManager.prototype.getVector = function (direction) {
+  // Vectors representing tile movement
+  var map = {
+    0: { x: 0,  y: -1 }, // Up
+    1: { x: 1,  y: 0 },  // Right
+    2: { x: 0,  y: 1 },  // Down
+    3: { x: -1, y: 0 }   // Left
+  };
+
+  return map[direction];
+};
+
+// Build a list of positions to traverse in the right order
+GameManager.prototype.buildTraversals = function (vector) {
+  var traversals = { x: [], y: [] };
+
+  for (var pos = 0; pos < this.size; pos++) {
+    traversals.x.push(pos);
+    traversals.y.push(pos);
+  }
+
+  // Always traverse from the farthest cell in the chosen direction
+  if (vector.x === 1) traversals.x = traversals.x.reverse();
+  if (vector.y === 1) traversals.y = traversals.y.reverse();
+
+  return traversals;
+};
+
+GameManager.prototype.findFarthestPosition = function (cell, vector) {
+  var previous;
+
+  // Progress towards the vector direction until an obstacle is found
+  do {
+    previous = cell;
+    cell     = { x: previous.x + vector.x, y: previous.y + vector.y };
+  } while (this.grid.withinBounds(cell) &&
+           this.grid.cellAvailable(cell));
+
+  return {
+    farthest: previous,
+    next: cell // Used to check if a merge is required
+  };
+};
+
+GameManager.prototype.movesAvailable = function () {
+  return this.grid.cellsAvailable() || this.tileMatchesAvailable();
+};
+
+// Check for available matches between tiles (more expensive check)
+GameManager.prototype.tileMatchesAvailable = function () {
+  var self = this;
+
+  var tile;
+
+  for (var x = 0; x < this.size; x++) {
+    for (var y = 0; y < this.size; y++) {
+      tile = this.grid.cellContent({ x: x, y: y });
+
+      if (tile) {
+        for (var direction = 0; direction < 4; direction++) {
+          var vector = self.getVector(direction);
+          var cell   = { x: x + vector.x, y: y + vector.y };
+
+          var other  = self.grid.cellContent(cell);
+
+          if (other && other.value === tile.value) {
+            return true; // These two tiles can be merged
+          }
+        }
+      }
+    }
+  }
+
+  return false;
+};
+
+GameManager.prototype.positionsEqual = function (first, second) {
+  return first.x === second.x && first.y === second.y;
+};
