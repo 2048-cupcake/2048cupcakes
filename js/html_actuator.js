@@ -1,1 +1,183 @@
-var _0xd051=["\x74\x69\x6C\x65\x43\x6F\x6E\x74\x61\x69\x6E\x65\x72","\x2E\x74\x69\x6C\x65\x2D\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72","\x73\x63\x6F\x72\x65\x43\x6F\x6E\x74\x61\x69\x6E\x65\x72","\x2E\x73\x63\x6F\x72\x65\x2D\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72","\x73\x63\x6F\x72\x65\x50\x6F\x69\x6E\x74\x73","\x2E\x73\x63\x6F\x72\x65\x2D\x70\x6F\x69\x6E\x74\x73","\x62\x65\x73\x74\x43\x6F\x6E\x74\x61\x69\x6E\x65\x72","\x2E\x62\x65\x73\x74\x2D\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72","\x62\x65\x73\x74\x50\x6F\x69\x6E\x74\x73","\x2E\x62\x65\x73\x74\x2D\x70\x6F\x69\x6E\x74\x73","\x6D\x65\x73\x73\x61\x67\x65\x43\x6F\x6E\x74\x61\x69\x6E\x65\x72","\x2E\x67\x61\x6D\x65\x2D\x6D\x65\x73\x73\x61\x67\x65","\x73\x68\x61\x72\x69\x6E\x67\x43\x6F\x6E\x74\x61\x69\x6E\x65\x72","\x2E\x73\x63\x6F\x72\x65\x2D\x73\x68\x61\x72\x69\x6E\x67","\x73\x63\x6F\x72\x65","\x70\x6F\x69\x6E\x74\x73","\x61\x63\x74\x75\x61\x74\x65","\x70\x72\x6F\x74\x6F\x74\x79\x70\x65","\x63\x6C\x65\x61\x72\x43\x6F\x6E\x74\x61\x69\x6E\x65\x72","\x61\x64\x64\x54\x69\x6C\x65","\x66\x6F\x72\x45\x61\x63\x68","\x63\x65\x6C\x6C\x73","\x75\x70\x64\x61\x74\x65\x53\x63\x6F\x72\x65","\x62\x65\x73\x74\x53\x63\x6F\x72\x65","\x75\x70\x64\x61\x74\x65\x42\x65\x73\x74\x53\x63\x6F\x72\x65","\x74\x65\x72\x6D\x69\x6E\x61\x74\x65\x64","\x6F\x76\x65\x72","\x6D\x65\x73\x73\x61\x67\x65","\x77\x6F\x6E","\x72\x65\x71\x75\x65\x73\x74\x41\x6E\x69\x6D\x61\x74\x69\x6F\x6E\x46\x72\x61\x6D\x65","\x63\x6F\x6E\x74\x69\x6E\x75\x65\x47\x61\x6D\x65","\x63\x6C\x65\x61\x72\x4D\x65\x73\x73\x61\x67\x65","\x66\x69\x72\x73\x74\x43\x68\x69\x6C\x64","\x72\x65\x6D\x6F\x76\x65\x43\x68\x69\x6C\x64","\x64\x69\x76","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x69\x6D\x67","\x70\x72\x65\x76\x69\x6F\x75\x73\x50\x6F\x73\x69\x74\x69\x6F\x6E","\x78","\x79","\x70\x6F\x73\x69\x74\x69\x6F\x6E\x43\x6C\x61\x73\x73","\x74\x69\x6C\x65","\x74\x69\x6C\x65\x2D","\x76\x61\x6C\x75\x65","\x74\x69\x6C\x65\x2D\x73\x75\x70\x65\x72","\x70\x75\x73\x68","\x61\x70\x70\x6C\x79\x43\x6C\x61\x73\x73\x65\x73","\x74\x69\x6C\x65\x2D\x69\x6E\x6E\x65\x72","\x61\x64\x64","\x63\x6C\x61\x73\x73\x4C\x69\x73\x74","\x73\x72\x63","\x69\x6D\x67\x2F","\x2E\x6A\x70\x67","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x6D\x65\x72\x67\x65\x64\x46\x72\x6F\x6D","\x74\x69\x6C\x65\x2D\x6D\x65\x72\x67\x65\x64","\x74\x69\x6C\x65\x2D\x6E\x65\x77","\x63\x6C\x61\x73\x73","\x20","\x6A\x6F\x69\x6E","\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x6E\x6F\x72\x6D\x61\x6C\x69\x7A\x65\x50\x6F\x73\x69\x74\x69\x6F\x6E","\x74\x69\x6C\x65\x2D\x70\x6F\x73\x69\x74\x69\x6F\x6E\x2D","\x2D","\x74\x65\x78\x74\x43\x6F\x6E\x74\x65\x6E\x74","\x70","\x73\x63\x6F\x72\x65\x2D\x61\x64\x64\x69\x74\x69\x6F\x6E","\x2B","\x67\x61\x6D\x65\x2D\x77\x6F\x6E","\x67\x61\x6D\x65\x2D\x6F\x76\x65\x72","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x73\x42\x79\x54\x61\x67\x4E\x61\x6D\x65","\x73\x63\x6F\x72\x65\x54\x77\x65\x65\x74\x42\x75\x74\x74\x6F\x6E","\x6C\x6F\x61\x64","\x77\x69\x64\x67\x65\x74\x73","\x72\x65\x6D\x6F\x76\x65","\x61","\x74\x77\x69\x74\x74\x65\x72\x2D\x73\x68\x61\x72\x65\x2D\x62\x75\x74\x74\x6F\x6E","\x68\x72\x65\x66","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x74\x77\x69\x74\x74\x65\x72\x2E\x63\x6F\x6D\x2F\x73\x68\x61\x72\x65","\x64\x61\x74\x61\x2D\x76\x69\x61","\x67\x69\x61\x6D\x70\x69\x65\x78","\x64\x61\x74\x61\x2D\x75\x72\x6C","\x68\x74\x74\x70\x3A\x2F\x2F\x67\x69\x74\x2E\x69\x6F\x2F\x63\x75\x70\x63\x61\x6B\x65\x73","\x64\x61\x74\x61\x2D\x63\x6F\x75\x6E\x74\x75\x72\x6C","\x68\x74\x74\x70\x3A\x2F\x2F\x30\x78\x30\x38\x30\x30\x2E\x67\x69\x74\x68\x75\x62\x2E\x69\x6F\x2F\x32\x30\x34\x38\x2D\x43\x55\x50\x43\x41\x4B\x45\x53","\x54\x77\x65\x65\x74","\x74\x77\x65\x65\x74\x31","\x74\x6F\x55\x70\x70\x65\x72\x43\x61\x73\x65","\x22\x2C\x20","\x20\x4B\x63\x61\x6C\x20","\x74\x77\x65\x65\x74\x32","\x64\x61\x74\x61\x2D\x74\x65\x78\x74"];function HTMLActuator(){this[_0xd051[0]]= document[_0xd051[2]](_0xd051[1]);this[_0xd051[3]]= document[_0xd051[2]](_0xd051[4]);this[_0xd051[5]]= document[_0xd051[2]](_0xd051[6]);this[_0xd051[7]]= document[_0xd051[2]](_0xd051[8]);this[_0xd051[9]]= document[_0xd051[2]](_0xd051[10]);this[_0xd051[11]]= document[_0xd051[2]](_0xd051[12]);this[_0xd051[13]]= document[_0xd051[2]](_0xd051[14]);this[_0xd051[15]]= 0;this[_0xd051[16]]= 0}HTMLActuator[_0xd051[18]][_0xd051[17]]= function(_0xea45x2,_0xea45x3){var _0xea45x4=this;window[_0xd051[30]](function(){_0xea45x4[_0xd051[19]](_0xea45x4[_0xd051[0]]);_0xea45x2[_0xd051[22]][_0xd051[21]](function(_0xea45x5){_0xea45x5[_0xd051[21]](function(_0xea45x6){if(_0xea45x6){_0xea45x4[_0xd051[20]](_0xea45x6)}})});_0xea45x4[_0xd051[23]](_0xea45x3[_0xd051[15]],_0xea45x3[_0xd051[16]]);_0xea45x4[_0xd051[25]](_0xea45x3[_0xd051[24]],_0xea45x3[_0xd051[9]]);if(_0xea45x3[_0xd051[26]]){if(_0xea45x3[_0xd051[27]]){_0xea45x4[_0xd051[28]](false)}else {if(_0xea45x3[_0xd051[29]]){_0xea45x4[_0xd051[28]](true)}}}})};HTMLActuator[_0xd051[18]][_0xd051[31]]= function(){this[_0xd051[32]]()};HTMLActuator[_0xd051[18]][_0xd051[19]]= function(_0xea45x7){while(_0xea45x7[_0xd051[33]]){_0xea45x7[_0xd051[34]](_0xea45x7[_0xd051[33]])}};HTMLActuator[_0xd051[18]][_0xd051[20]]= function(_0xea45x8){var _0xea45x4=this;var _0xea45x9=document[_0xd051[36]](_0xd051[35]);var _0xea45xa=document[_0xd051[36]](_0xd051[35]);var _0xea45xb=document[_0xd051[36]](_0xd051[37]);var _0xea45xc=_0xea45x8[_0xd051[38]]|| {x:_0xea45x8[_0xd051[39]],y:_0xea45x8[_0xd051[40]]};var _0xea45xd=this[_0xd051[41]](_0xea45xc);var _0xea45xe=[_0xd051[42],_0xd051[43]+ _0xea45x8[_0xd051[44]],_0xea45xd];if(_0xea45x8[_0xd051[44]]> 2048){_0xea45xe[_0xd051[46]](_0xd051[45])};this[_0xd051[47]](_0xea45x9,_0xea45xe);_0xea45xa[_0xd051[50]][_0xd051[49]](_0xd051[48]);_0xea45xb[_0xd051[51]]= _0xd051[52]+ _0xea45x8[_0xd051[44]]+ _0xd051[53];_0xea45xa[_0xd051[54]](_0xea45xb);if(_0xea45x8[_0xd051[38]]){window[_0xd051[30]](function(){_0xea45xe[2]= _0xea45x4[_0xd051[41]]({x:_0xea45x8[_0xd051[39]],y:_0xea45x8[_0xd051[40]]});_0xea45x4[_0xd051[47]](_0xea45x9,_0xea45xe)})}else {if(_0xea45x8[_0xd051[55]]){_0xea45xe[_0xd051[46]](_0xd051[56]);this[_0xd051[47]](_0xea45x9,_0xea45xe);_0xea45x8[_0xd051[55]][_0xd051[21]](function(_0xea45xf){_0xea45x4[_0xd051[20]](_0xea45xf)})}else {_0xea45xe[_0xd051[46]](_0xd051[57]);this[_0xd051[47]](_0xea45x9,_0xea45xe)}};_0xea45x9[_0xd051[54]](_0xea45xa);this[_0xd051[0]][_0xd051[54]](_0xea45x9)};HTMLActuator[_0xd051[18]][_0xd051[47]]= function(_0xea45x10,_0xea45xe){_0xea45x10[_0xd051[61]](_0xd051[58],_0xea45xe[_0xd051[60]](_0xd051[59]))};HTMLActuator[_0xd051[18]][_0xd051[62]]= function(_0xea45xc){return {x:_0xea45xc[_0xd051[39]]+ 1,y:_0xea45xc[_0xd051[40]]+ 1}};HTMLActuator[_0xd051[18]][_0xd051[41]]= function(_0xea45xc){_0xea45xc= this[_0xd051[62]](_0xea45xc);return _0xd051[63]+ _0xea45xc[_0xd051[39]]+ _0xd051[64]+ _0xea45xc[_0xd051[40]]};HTMLActuator[_0xd051[18]][_0xd051[23]]= function(_0xea45x11,_0xea45x12){this[_0xd051[19]](this[_0xd051[3]]);this[_0xd051[19]](this[_0xd051[5]]);var _0xea45x13=_0xea45x11- this[_0xd051[15]];this[_0xd051[15]]= _0xea45x11;var _0xea45x14=_0xea45x12- this[_0xd051[16]];this[_0xd051[16]]= _0xea45x12;this[_0xd051[5]][_0xd051[65]]= this[_0xd051[16]];this[_0xd051[3]][_0xd051[65]]= Localize(_0xd051[66]+ this[_0xd051[15]]);if(_0xea45x13> 0){var _0xea45x15=document[_0xd051[36]](_0xd051[35]);_0xea45x15[_0xd051[50]][_0xd051[49]](_0xd051[67]);_0xea45x15[_0xd051[65]]= Localize(_0xd051[66]+ this[_0xd051[15]]);this[_0xd051[3]][_0xd051[54]](_0xea45x15)};if(_0xea45x14> 0){var _0xea45x16=document[_0xd051[36]](_0xd051[35]);_0xea45x16[_0xd051[50]][_0xd051[49]](_0xd051[67]);_0xea45x16[_0xd051[65]]= _0xd051[68]+ _0xea45x14;this[_0xd051[5]][_0xd051[54]](_0xea45x16)}};HTMLActuator[_0xd051[18]][_0xd051[25]]= function(_0xea45x17,_0xea45x18){this[_0xd051[7]][_0xd051[65]]= Localize(_0xd051[66]+ _0xea45x17);this[_0xd051[9]][_0xd051[65]]= _0xea45x18};HTMLActuator[_0xd051[18]][_0xd051[28]]= function(_0xea45x19){var _0xea45x1a=_0xea45x19?_0xd051[69]:_0xd051[70];var _0xea45x1b=Localize(_0xea45x1a);this[_0xd051[11]][_0xd051[50]][_0xd051[49]](_0xea45x1a);this[_0xd051[11]][_0xd051[71]](_0xd051[66])[0][_0xd051[65]]= _0xea45x1b;this[_0xd051[19]](this[_0xd051[13]]);this[_0xd051[13]][_0xd051[54]](this[_0xd051[72]]());twttr[_0xd051[74]][_0xd051[73]]()};HTMLActuator[_0xd051[18]][_0xd051[32]]= function(){this[_0xd051[11]][_0xd051[50]][_0xd051[75]](_0xd051[69]);this[_0xd051[11]][_0xd051[50]][_0xd051[75]](_0xd051[70])};HTMLActuator[_0xd051[18]][_0xd051[72]]= function(){var _0xea45x1c=document[_0xd051[36]](_0xd051[76]);_0xea45x1c[_0xd051[50]][_0xd051[49]](_0xd051[77]);_0xea45x1c[_0xd051[61]](_0xd051[78],_0xd051[79]);_0xea45x1c[_0xd051[61]](_0xd051[80],_0xd051[81]);_0xea45x1c[_0xd051[61]](_0xd051[82],_0xd051[83]);_0xea45x1c[_0xd051[61]](_0xd051[84],_0xd051[85]);_0xea45x1c[_0xd051[65]]= _0xd051[86];var _0xea45x1d=Localize(_0xd051[87])+ Localize(this[_0xd051[15]])[_0xd051[88]]()+ _0xd051[89]+ this[_0xd051[16]]+ _0xd051[90]+ Localize(_0xd051[91]);_0xea45x1c[_0xd051[61]](_0xd051[92],_0xea45x1d);return _0xea45x1c}
+function HTMLActuator() {
+  this.tileContainer    = document.querySelector(".tile-container");
+  this.scoreContainer   = document.querySelector(".score-container");
+  this.scorePoints      = document.querySelector(".score-points");
+  this.bestContainer    = document.querySelector(".best-container");
+  this.bestPoints       = document.querySelector(".best-points");
+  this.messageContainer = document.querySelector(".game-message");
+  this.sharingContainer = document.querySelector(".score-sharing");
+
+  this.score = 0;
+  this.points = 0;
+}
+
+HTMLActuator.prototype.actuate = function (grid, metadata) {
+  var self = this;
+
+  window.requestAnimationFrame(function () {
+    self.clearContainer(self.tileContainer);
+
+    grid.cells.forEach(function (column) {
+      column.forEach(function (cell) {
+        if (cell) {
+          self.addTile(cell);
+        }
+      });
+    });
+
+    self.updateScore(metadata.score, metadata.points);
+    self.updateBestScore(metadata.bestScore, metadata.bestPoints);
+
+    if (metadata.terminated) {
+      if (metadata.over) {
+        self.message(false); // You lose
+      } else if (metadata.won) {
+        self.message(true); // You win!
+      }
+    }
+
+  });
+};
+
+// Continues the game (both restart and keep playing)
+HTMLActuator.prototype.continueGame = function () {
+  this.clearMessage();
+};
+
+HTMLActuator.prototype.clearContainer = function (container) {
+  while (container.firstChild) {
+    container.removeChild(container.firstChild);
+  }
+};
+
+HTMLActuator.prototype.addTile = function (tile) {
+  var self = this;
+
+  var wrapper   = document.createElement("div");
+  var inner     = document.createElement("div");
+  var img       = document.createElement("img");
+  var position  = tile.previousPosition || { x: tile.x, y: tile.y };
+  var positionClass = this.positionClass(position);
+
+  // We can't use classlist because it somehow glitches when replacing classes
+  var classes = ["tile", "tile-" + tile.value, positionClass];
+
+  if (tile.value > 2048) classes.push("tile-super");
+
+  this.applyClasses(wrapper, classes);
+
+  inner.classList.add("tile-inner");
+  // inner.textContent = tile.value;
+  // img.style.width = '100%';
+  img.src = "https://2048-cupcake.github.io/2048cupcakes/img/" + tile.value + ".jpg";
+  inner.appendChild(img);
+
+  if (tile.previousPosition) {
+    // Make sure that the tile gets rendered in the previous position first
+    window.requestAnimationFrame(function () {
+      classes[2] = self.positionClass({ x: tile.x, y: tile.y });
+      self.applyClasses(wrapper, classes); // Update the position
+    });
+  } else if (tile.mergedFrom) {
+    classes.push("tile-merged");
+    this.applyClasses(wrapper, classes);
+
+    // Render the tiles that merged
+    tile.mergedFrom.forEach(function (merged) {
+      self.addTile(merged);
+    });
+  } else {
+    classes.push("tile-new");
+    this.applyClasses(wrapper, classes);
+  }
+
+  // Add the inner part of the tile to the wrapper
+  wrapper.appendChild(inner);
+
+  // Put the tile on the board
+  this.tileContainer.appendChild(wrapper);
+};
+
+HTMLActuator.prototype.applyClasses = function (element, classes) {
+  element.setAttribute("class", classes.join(" "));
+};
+
+HTMLActuator.prototype.normalizePosition = function (position) {
+  return { x: position.x + 1, y: position.y + 1 };
+};
+
+HTMLActuator.prototype.positionClass = function (position) {
+  position = this.normalizePosition(position);
+  return "tile-position-" + position.x + "-" + position.y;
+};
+
+HTMLActuator.prototype.updateScore = function (score, points) {
+  this.clearContainer(this.scoreContainer);
+  this.clearContainer(this.scorePoints);
+
+  var difference = score - this.score;
+  this.score = score;
+	var pointDifference = points - this.points;
+	this.points = points;
+
+  // this.scoreContainer.textContent = this.score;
+	this.scorePoints.textContent = this.points;
+  this.scoreContainer.textContent = Localize( "p" + this.score );
+
+  if (difference > 0) {
+    var addition = document.createElement("div");
+    addition.classList.add("score-addition");
+    // addition.textContent = "+" + difference;
+    addition.textContent = Localize( "p" + this.score );
+
+    this.scoreContainer.appendChild(addition);
+  }
+
+	if (pointDifference > 0) {
+		var punti = document.createElement("div");
+		punti.classList.add("score-addition");
+		punti.textContent = "+" + pointDifference;
+		this.scorePoints.appendChild(punti);
+	}
+};
+
+HTMLActuator.prototype.updateBestScore = function (bestScore, bestPoints) {
+  this.bestContainer.textContent = Localize( "p" + bestScore);
+  this.bestPoints.textContent = bestPoints;
+
+	// var difference = score - this.score;
+	// this.score = score;
+};
+
+HTMLActuator.prototype.message = function (won) {
+  var type    = won ? "game-won" : "game-over";
+  var message = Localize(type);
+
+  this.messageContainer.classList.add(type);
+  this.messageContainer.getElementsByTagName("p")[0].textContent = message;
+
+  this.clearContainer(this.sharingContainer);
+  this.sharingContainer.appendChild(this.scoreTweetButton());
+  twttr.widgets.load();
+};
+
+HTMLActuator.prototype.clearMessage = function () {
+  // IE only takes one value to remove at a time.
+  this.messageContainer.classList.remove("game-won");
+  this.messageContainer.classList.remove("game-over");
+};
+
+HTMLActuator.prototype.scoreTweetButton = function () {
+  var tweet = document.createElement("a");
+  tweet.classList.add("twitter-share-button");
+  tweet.setAttribute("href", "https://twitter.com/share");
+  tweet.setAttribute("data-via", "giampiex");
+  tweet.setAttribute("data-url", "http://git.io/cupcakes");
+  tweet.setAttribute("data-counturl", "http://0x0800.github.io/2048-CUPCAKES");
+  tweet.textContent = "Tweet";
+
+  var text = Localize("tweet1") + Localize( this.score ).toUpperCase() + '", ' + this.points + " Kcal " + Localize("tweet2");
+  tweet.setAttribute("data-text", text);
+
+  return tweet;
+};
