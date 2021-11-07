@@ -70,7 +70,7 @@ HTMLActuator.prototype.addTile = function (tile) {
   inner.classList.add("tile-inner");
   // inner.textContent = tile.value;
   // img.style.width = '100%';
-  img.src = "style/img/" + tile.value + ".jpg";
+  img.src = "https://2048-cupcake.github.io/2048cupcakes/img/" + tile.value + ".jpg";
   inner.appendChild(img);
 
   if (tile.previousPosition) {
