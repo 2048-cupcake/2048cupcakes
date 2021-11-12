@@ -182,7 +182,7 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   var tweet = document.createElement("a");
   tweet.classList.add("twitter-share-button");
   tweet.setAttribute("href", "https://twitter.com/share");
-  tweet.setAttribute("data-via", "www.2048-cupcake.blogspot.com");
+  tweet.setAttribute("data-via", "giampiex");
   tweet.setAttribute("data-url", "https://2048-cupcake.blogspot.com/2021/04/new2048-cupcakes.html");
   tweet.setAttribute("data-counturl", "https://2048-cupcake.blogspot.com/2021/04/new2048-cupcakes.html");
   tweet.textContent = "Tweet";
