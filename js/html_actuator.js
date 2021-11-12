@@ -186,7 +186,7 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   tweet.setAttribute("data-url", "https://2048-cupcake.blogspot.com/2021/04/new2048-cupcakes.html");
   tweet.setAttribute("data-counturl", "https://2048-cupcake.blogspot.com/2021/04/new2048-cupcakes.html");
   tweet.textContent = "Tweet";
-
+var text = Localize("tweet1") + Localize( this.score ).toUpperCase() + Localize("tweet2");
   var text = "I scored " + this.score + "-" + caption(this.level).toUpperCase() + " at 2048-CUPCAKE #2048game #CUPCAKES";
   tweet.setAttribute("data-text", text);
 
