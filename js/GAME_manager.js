@@ -20,17 +20,17 @@ function GameManager(size, InputManager, Actuator, StorageManager) {
 // Set Captions
 function caption(exp) {
   var caption = [];
-  caption[2]    = 'cameroon';
-  caption[4]    = 'costa rica';
-  caption[8]    = 'inghilterra';
-  caption[16]   = 'uruguay';
-  caption[32]   = 'netherlands';
-  caption[64]   = 'nigeria';
-  caption[128]  = 'germany';
-  caption[256]  = 'argentina';
-  caption[512]  = 'spain';
-  caption[1024] = 'brazil';
-  caption[2048] = 'italy';
+  caption[2]    = 'Vanilla Birthday (200 Kcal)';
+  caption[4]    = 'Bubblegum Pink (250 Kcal)';
+  caption[8]    = 'Sunshine Vanilla (320 Kcal)';
+  caption[16]   = 'Valrhona Blonde Ganache (400 Kcal)';
+  caption[32]   = 'Chocolare Peanut Butter Cheesecake (500 Kcal)';
+  caption[64]   = 'Chocolate Mint Fudge (650 Kcal)';
+  caption[128]  = 'Chocolate Spider Web (820 Kcal)';
+  caption[256]  = 'Toasted Marshmallow (1000 Kcal)';
+  caption[512]  = 'Cookies And Creme (1200 Kcal)';
+  caption[1024] = 'Chocolate Sundae (1500 Kcal)';
+  caption[2048] = 'White Chocolate Peppermint (2000 Kcal)';
 
   return caption[exp];
 }
