@@ -1048,7 +1048,7 @@ body {
   background-position: center center;
   background-color: white;
   display: block;  border-style: outset;
-    border-width: 2px;
+    border-width: 1px;
     border-color: coral;}
 
 .cell-4 {
