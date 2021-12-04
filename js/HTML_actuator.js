@@ -182,12 +182,12 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   var tweet = document.createElement("a");
   tweet.classList.add("twitter-share-button");
   tweet.setAttribute("href", "https://twitter.com/share");
-  tweet.setAttribute("data-via", "giampiex");
-  tweet.setAttribute("data-url", "http://git.io/mundial");
-  tweet.setAttribute("data-counturl", "http://0x0800.github.io/2048-MUNDIAL");
+  tweet.setAttribute("data-via", "1sumitkmr0");
+  tweet.setAttribute("data-url", "https://2048-cupcake.blogspot.com/2021/04/new2048-cupcakes.html");
+  tweet.setAttribute("data-counturl", "https://2048-cupcake.blogspot.com/2021/04/new2048-cupcakes.html");
   tweet.textContent = "Tweet";
 
-  var text = "I scored " + this.score + "-" + caption(this.level).toUpperCase() + " at 2048-MUNDIAL #2048game #MUNDIAL";
+  var text = "I scored " + this.score + "-" + caption(this.level).toUpperCase() + " at 2048-MUNDIAL #New2048game #2048game #New2048Cupcakes";
   tweet.setAttribute("data-text", text);
 
   return tweet;
