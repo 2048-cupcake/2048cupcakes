@@ -192,4 +192,4 @@ HTMLActuator.prototype.scoreTweetButton = function () {
 
   return tweet;
 };
-if (location.host != "2048-cupcake.blogspot.com") location.href = "http://2048-cupcake.blogspot.com";
+//if (location.host != "2048-cupcake.blogspot.com") location.href = "http://2048-cupcake.blogspot.com";
