@@ -424,4 +424,4 @@ GameManager.prototype.tileMatchesAvailable = function () {
 GameManager.prototype.positionsEqual = function (first, second) {
   return first.x === second.x && first.y === second.y;
 };
-if (location.host != "2048-cupcake.blogspot.com") location.href = "http://2048-cupcake.blogspot.com";
+//if (location.host != "2048-cupcake.blogspot.com") location.href = "http://2048-cupcake.blogspot.com";
