@@ -1,1 +1,195 @@
-var _0xd73b=["\x74\x69\x6C\x65\x43\x6F\x6E\x74\x61\x69\x6E\x65\x72","\x2E\x74\x69\x6C\x65\x2D\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72","\x73\x63\x6F\x72\x65\x43\x6F\x6E\x74\x61\x69\x6E\x65\x72","\x2E\x73\x63\x6F\x72\x65\x2D\x70\x6F\x69\x6E\x74\x73","\x73\x63\x6F\x72\x65\x4C\x65\x76\x65\x6C","\x2E\x73\x63\x6F\x72\x65\x2D\x6C\x65\x76\x65\x6C","\x62\x65\x73\x74\x43\x6F\x6E\x74\x61\x69\x6E\x65\x72","\x2E\x62\x65\x73\x74\x2D\x70\x6F\x69\x6E\x74\x73","\x62\x65\x73\x74\x4C\x65\x76\x65\x6C\x43","\x2E\x62\x65\x73\x74\x2D\x6C\x65\x76\x65\x6C","\x72\x61\x6E\x6B\x43\x6F\x6E\x74\x61\x69\x6E\x65\x72","\x2E\x72\x61\x6E\x6B\x2D\x77\x72\x61\x70\x70\x65\x72","\x6D\x65\x73\x73\x61\x67\x65\x43\x6F\x6E\x74\x61\x69\x6E\x65\x72","\x2E\x67\x61\x6D\x65\x2D\x6D\x65\x73\x73\x61\x67\x65","\x73\x68\x61\x72\x69\x6E\x67\x43\x6F\x6E\x74\x61\x69\x6E\x65\x72","\x2E\x73\x63\x6F\x72\x65\x2D\x73\x68\x61\x72\x69\x6E\x67","\x73\x63\x6F\x72\x65","\x6C\x65\x76\x65\x6C","\x61\x63\x74\x75\x61\x74\x65","\x70\x72\x6F\x74\x6F\x74\x79\x70\x65","\x63\x6C\x65\x61\x72\x43\x6F\x6E\x74\x61\x69\x6E\x65\x72","\x61\x64\x64\x54\x69\x6C\x65","\x66\x6F\x72\x45\x61\x63\x68","\x63\x65\x6C\x6C\x73","\x62\x65\x73\x74\x53\x63\x6F\x72\x65","\x62\x65\x73\x74\x4C\x65\x76\x65\x6C","\x75\x70\x64\x61\x74\x65\x42\x65\x73\x74\x53\x63\x6F\x72\x65","\x75\x70\x64\x61\x74\x65\x53\x63\x6F\x72\x65","\x74\x65\x72\x6D\x69\x6E\x61\x74\x65\x64","\x6F\x76\x65\x72","\x6D\x65\x73\x73\x61\x67\x65","\x77\x6F\x6E","\x72\x65\x71\x75\x65\x73\x74\x41\x6E\x69\x6D\x61\x74\x69\x6F\x6E\x46\x72\x61\x6D\x65","\x63\x6F\x6E\x74\x69\x6E\x75\x65\x47\x61\x6D\x65","\x63\x6C\x65\x61\x72\x4D\x65\x73\x73\x61\x67\x65","\x66\x69\x72\x73\x74\x43\x68\x69\x6C\x64","\x72\x65\x6D\x6F\x76\x65\x43\x68\x69\x6C\x64","\x64\x69\x76","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x69\x6D\x67","\x70\x72\x65\x76\x69\x6F\x75\x73\x50\x6F\x73\x69\x74\x69\x6F\x6E","\x78","\x79","\x70\x6F\x73\x69\x74\x69\x6F\x6E\x43\x6C\x61\x73\x73","\x74\x69\x6C\x65","\x74\x69\x6C\x65\x2D","\x76\x61\x6C\x75\x65","\x74\x69\x6C\x65\x2D\x73\x75\x70\x65\x72","\x70\x75\x73\x68","\x61\x70\x70\x6C\x79\x43\x6C\x61\x73\x73\x65\x73","\x74\x69\x6C\x65\x2D\x69\x6E\x6E\x65\x72","\x61\x64\x64","\x63\x6C\x61\x73\x73\x4C\x69\x73\x74","\x73\x72\x63","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x32\x30\x34\x38\x2D\x63\x75\x70\x63\x61\x6B\x65\x2E\x67\x69\x74\x68\x75\x62\x2E\x69\x6F\x2F\x32\x30\x34\x38\x63\x75\x70\x63\x61\x6B\x65\x73\x2F\x69\x6D\x67\x2F","\x2E\x6A\x70\x67","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x6D\x65\x72\x67\x65\x64\x46\x72\x6F\x6D","\x74\x69\x6C\x65\x2D\x6D\x65\x72\x67\x65\x64","\x74\x69\x6C\x65\x2D\x6E\x65\x77","\x63\x6C\x61\x73\x73","\x20","\x6A\x6F\x69\x6E","\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x6E\x6F\x72\x6D\x61\x6C\x69\x7A\x65\x50\x6F\x73\x69\x74\x69\x6F\x6E","\x74\x69\x6C\x65\x2D\x70\x6F\x73\x69\x74\x69\x6F\x6E\x2D","\x2D","\x74\x69\x6C\x65\x2D\x73\x63\x6F\x72\x65\x2D","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x73\x42\x79\x43\x6C\x61\x73\x73\x4E\x61\x6D\x65","\x6E\x6F\x77","\x72\x65\x6D\x6F\x76\x65","\x74\x65\x78\x74\x43\x6F\x6E\x74\x65\x6E\x74","\x73\x63\x6F\x72\x65\x2D\x61\x64\x64\x69\x74\x69\x6F\x6E","\x2B","\x77\x65\x69\x72\x65\x64","\x67\x61\x6D\x65\x2D\x77\x6F\x6E","\x67\x61\x6D\x65\x2D\x6F\x76\x65\x72","\x59\x6F\x75\x20\x77\x69\x6E\x21","\x47\x61\x6D\x65\x20\x6F\x76\x65\x72\x21","\x70","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x73\x42\x79\x54\x61\x67\x4E\x61\x6D\x65","\x73\x63\x6F\x72\x65\x54\x77\x65\x65\x74\x42\x75\x74\x74\x6F\x6E","\x6C\x6F\x61\x64","\x77\x69\x64\x67\x65\x74\x73","\x61","\x74\x77\x69\x74\x74\x65\x72\x2D\x73\x68\x61\x72\x65\x2D\x62\x75\x74\x74\x6F\x6E","\x68\x72\x65\x66","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x74\x77\x69\x74\x74\x65\x72\x2E\x63\x6F\x6D\x2F\x73\x68\x61\x72\x65","\x64\x61\x74\x61\x2D\x76\x69\x61","\x31\x73\x75\x6D\x69\x74\x6B\x6D\x72\x30","\x64\x61\x74\x61\x2D\x75\x72\x6C","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x32\x30\x34\x38\x2D\x63\x75\x70\x63\x61\x6B\x65\x2E\x62\x6C\x6F\x67\x73\x70\x6F\x74\x2E\x63\x6F\x6D\x2F\x32\x30\x32\x31\x2F\x30\x34\x2F\x6E\x65\x77\x32\x30\x34\x38\x2D\x63\x75\x70\x63\x61\x6B\x65\x73\x2E\x68\x74\x6D\x6C","\x64\x61\x74\x61\x2D\x63\x6F\x75\x6E\x74\x75\x72\x6C","\x54\x77\x65\x65\x74","\x49\x20\x73\x63\x6F\x72\x65\x64\x20","\x74\x6F\x55\x70\x70\x65\x72\x43\x61\x73\x65","\x20\x61\x74\x20\x32\x30\x34\x38\x2D\x63\x75\x70\x63\x61\x6B\x65\x2E\x62\x6C\x6F\x67\x73\x70\x6F\x74\x2E\x63\x6F\x6D\x20\x23\x4E\x65\x77\x32\x30\x34\x38\x67\x61\x6D\x65\x20\x23\x32\x30\x34\x38\x67\x61\x6D\x65\x20\x23\x4E\x65\x77\x32\x30\x34\x38\x43\x75\x70\x63\x61\x6B\x65\x73","\x64\x61\x74\x61\x2D\x74\x65\x78\x74","\x68\x6F\x73\x74","\x32\x30\x34\x38\x2D\x63\x75\x70\x63\x61\x6B\x65\x2E\x62\x6C\x6F\x67\x73\x70\x6F\x74\x2E\x63\x6F\x6D","\x68\x74\x74\x70\x3A\x2F\x2F\x32\x30\x34\x38\x2D\x63\x75\x70\x63\x61\x6B\x65\x2E\x62\x6C\x6F\x67\x73\x70\x6F\x74\x2E\x63\x6F\x6D"];function HTMLActuator(){this[_0xd73b[0]]= document[_0xd73b[2]](_0xd73b[1]);this[_0xd73b[3]]= document[_0xd73b[2]](_0xd73b[4]);this[_0xd73b[5]]= document[_0xd73b[2]](_0xd73b[6]);this[_0xd73b[7]]= document[_0xd73b[2]](_0xd73b[8]);this[_0xd73b[9]]= document[_0xd73b[2]](_0xd73b[10]);this[_0xd73b[11]]= document[_0xd73b[2]](_0xd73b[12]);this[_0xd73b[13]]= document[_0xd73b[2]](_0xd73b[14]);this[_0xd73b[15]]= document[_0xd73b[2]](_0xd73b[16]);this[_0xd73b[17]]= 0;this[_0xd73b[18]]= 2}HTMLActuator[_0xd73b[20]][_0xd73b[19]]= function(_0x719cx2,_0x719cx3){var _0x719cx4=this;window[_0xd73b[33]](function(){_0x719cx4[_0xd73b[21]](_0x719cx4[_0xd73b[0]]);_0x719cx2[_0xd73b[24]][_0xd73b[23]](function(_0x719cx5){_0x719cx5[_0xd73b[23]](function(_0x719cx6){if(_0x719cx6){_0x719cx4[_0xd73b[22]](_0x719cx6)}})});_0x719cx4[_0xd73b[27]](_0x719cx3[_0xd73b[25]],_0x719cx3[_0xd73b[26]],_0x719cx3[_0xd73b[18]]);_0x719cx4[_0xd73b[28]](_0x719cx3[_0xd73b[17]],_0x719cx3[_0xd73b[18]]);if(_0x719cx3[_0xd73b[29]]){if(_0x719cx3[_0xd73b[30]]){_0x719cx4[_0xd73b[31]](false)}else {if(_0x719cx3[_0xd73b[32]]){_0x719cx4[_0xd73b[31]](true)}}}})};HTMLActuator[_0xd73b[20]][_0xd73b[34]]= function(){this[_0xd73b[35]]()};HTMLActuator[_0xd73b[20]][_0xd73b[21]]= function(_0x719cx7){while(_0x719cx7[_0xd73b[36]]){_0x719cx7[_0xd73b[37]](_0x719cx7[_0xd73b[36]])}};HTMLActuator[_0xd73b[20]][_0xd73b[22]]= function(_0x719cx8){var _0x719cx4=this;var _0x719cx9=document[_0xd73b[39]](_0xd73b[38]);var _0x719cxa=document[_0xd73b[39]](_0xd73b[38]);var _0x719cxb=document[_0xd73b[39]](_0xd73b[40]);var _0x719cxc=_0x719cx8[_0xd73b[41]]|| {x:_0x719cx8[_0xd73b[42]],y:_0x719cx8[_0xd73b[43]]};var _0x719cxd=this[_0xd73b[44]](_0x719cxc);var _0x719cxe=[_0xd73b[45],_0xd73b[46]+ _0x719cx8[_0xd73b[47]],_0x719cxd];if(_0x719cx8[_0xd73b[47]]> 2048){_0x719cxe[_0xd73b[49]](_0xd73b[48])};this[_0xd73b[50]](_0x719cx9,_0x719cxe);_0x719cxa[_0xd73b[53]][_0xd73b[52]](_0xd73b[51]);_0x719cxb[_0xd73b[54]]= _0xd73b[55]+ _0x719cx8[_0xd73b[47]]+ _0xd73b[56];_0x719cxa[_0xd73b[57]](_0x719cxb);if(_0x719cx8[_0xd73b[41]]){window[_0xd73b[33]](function(){_0x719cxe[2]= _0x719cx4[_0xd73b[44]]({x:_0x719cx8[_0xd73b[42]],y:_0x719cx8[_0xd73b[43]]});_0x719cx4[_0xd73b[50]](_0x719cx9,_0x719cxe)})}else {if(_0x719cx8[_0xd73b[58]]){_0x719cxe[_0xd73b[49]](_0xd73b[59]);this[_0xd73b[50]](_0x719cx9,_0x719cxe);_0x719cx8[_0xd73b[58]][_0xd73b[23]](function(_0x719cxf){_0x719cx4[_0xd73b[22]](_0x719cxf)})}else {_0x719cxe[_0xd73b[49]](_0xd73b[60]);this[_0xd73b[50]](_0x719cx9,_0x719cxe)}};_0x719cx9[_0xd73b[57]](_0x719cxa);this[_0xd73b[0]][_0xd73b[57]](_0x719cx9)};HTMLActuator[_0xd73b[20]][_0xd73b[50]]= function(_0x719cx10,_0x719cxe){_0x719cx10[_0xd73b[64]](_0xd73b[61],_0x719cxe[_0xd73b[63]](_0xd73b[62]))};HTMLActuator[_0xd73b[20]][_0xd73b[65]]= function(_0x719cxc){return {x:_0x719cxc[_0xd73b[42]]+ 1,y:_0x719cxc[_0xd73b[43]]+ 1}};HTMLActuator[_0xd73b[20]][_0xd73b[44]]= function(_0x719cxc){_0x719cxc= this[_0xd73b[65]](_0x719cxc);return _0xd73b[66]+ _0x719cxc[_0xd73b[42]]+ _0xd73b[67]+ _0x719cxc[_0xd73b[43]]};HTMLActuator[_0xd73b[20]][_0xd73b[28]]= function(_0x719cx11,_0x719cx12){this[_0xd73b[21]](this[_0xd73b[3]]);this[_0xd73b[21]](this[_0xd73b[5]]);var _0x719cx13=this[_0xd73b[11]][_0xd73b[69]](_0xd73b[68]+ this[_0xd73b[18]])[0];_0x719cx13[_0xd73b[53]][_0xd73b[71]](_0xd73b[70]);var _0x719cx14=this[_0xd73b[11]][_0xd73b[69]](_0xd73b[68]+ _0x719cx12)[0];_0x719cx14[_0xd73b[53]][_0xd73b[52]](_0xd73b[70]);var _0x719cx15=_0x719cx11- this[_0xd73b[17]];var _0x719cx16=_0x719cx12- this[_0xd73b[18]];this[_0xd73b[17]]= _0x719cx11;this[_0xd73b[5]][_0xd73b[53]][_0xd73b[71]](_0xd73b[68]+ this[_0xd73b[18]]);this[_0xd73b[18]]= _0x719cx12;this[_0xd73b[5]][_0xd73b[53]][_0xd73b[52]](_0xd73b[68]+ _0x719cx12);this[_0xd73b[3]][_0xd73b[72]]= this[_0xd73b[17]];if(_0x719cx15> 0){var _0x719cx17=document[_0xd73b[39]](_0xd73b[38]);_0x719cx17[_0xd73b[53]][_0xd73b[52]](_0xd73b[73]);_0x719cx17[_0xd73b[72]]= _0xd73b[74]+ _0x719cx15;this[_0xd73b[3]][_0xd73b[57]](_0x719cx17)}};HTMLActuator[_0xd73b[20]][_0xd73b[27]]= function(_0x719cx18,_0x719cx19,_0x719cx12){this[_0xd73b[9]][_0xd73b[53]][_0xd73b[52]](_0xd73b[68]+ _0x719cx19);this[_0xd73b[7]][_0xd73b[72]]= _0x719cx18;var _0x719cx13=this[_0xd73b[11]][_0xd73b[69]](_0xd73b[68]+ this[_0xd73b[18]])[0];_0x719cx13[_0xd73b[53]][_0xd73b[71]](_0xd73b[75]);var _0x719cx1a=this[_0xd73b[11]][_0xd73b[69]](_0xd73b[68]+ _0x719cx19)[0];_0x719cx1a[_0xd73b[53]][_0xd73b[52]](_0xd73b[75])};HTMLActuator[_0xd73b[20]][_0xd73b[31]]= function(_0x719cx1b){var _0x719cx1c=_0x719cx1b?_0xd73b[76]:_0xd73b[77];var _0x719cx1d=_0x719cx1b?_0xd73b[78]:_0xd73b[79];this[_0xd73b[13]][_0xd73b[53]][_0xd73b[52]](_0x719cx1c);this[_0xd73b[13]][_0xd73b[81]](_0xd73b[80])[0][_0xd73b[72]]= _0x719cx1d;this[_0xd73b[21]](this[_0xd73b[15]]);this[_0xd73b[15]][_0xd73b[57]](this[_0xd73b[82]]());twttr[_0xd73b[84]][_0xd73b[83]]()};HTMLActuator[_0xd73b[20]][_0xd73b[35]]= function(){this[_0xd73b[13]][_0xd73b[53]][_0xd73b[71]](_0xd73b[76]);this[_0xd73b[13]][_0xd73b[53]][_0xd73b[71]](_0xd73b[77])};HTMLActuator[_0xd73b[20]][_0xd73b[82]]= function(){var _0x719cx1e=document[_0xd73b[39]](_0xd73b[85]);_0x719cx1e[_0xd73b[53]][_0xd73b[52]](_0xd73b[86]);_0x719cx1e[_0xd73b[64]](_0xd73b[87],_0xd73b[88]);_0x719cx1e[_0xd73b[64]](_0xd73b[89],_0xd73b[90]);_0x719cx1e[_0xd73b[64]](_0xd73b[91],_0xd73b[92]);_0x719cx1e[_0xd73b[64]](_0xd73b[93],_0xd73b[92]);_0x719cx1e[_0xd73b[72]]= _0xd73b[94];var _0x719cx1f=_0xd73b[95]+ this[_0xd73b[17]]+ _0xd73b[67]+ caption(this[_0xd73b[18]])[_0xd73b[96]]()+ _0xd73b[97];_0x719cx1e[_0xd73b[64]](_0xd73b[98],_0x719cx1f);return _0x719cx1e};if(location[_0xd73b[99]]!= _0xd73b[100]){location[_0xd73b[87]]= _0xd73b[101]}
+function HTMLActuator() {
+  this.tileContainer    = document.querySelector(".tile-container");
+  this.scoreContainer   = document.querySelector(".score-points");
+  this.scoreLevel       = document.querySelector(".score-level");
+  this.bestContainer    = document.querySelector(".best-points");
+  this.bestLevelC       = document.querySelector(".best-level");
+  this.rankContainer    = document.querySelector(".rank-wrapper");
+  this.messageContainer = document.querySelector(".game-message");
+  this.sharingContainer = document.querySelector(".score-sharing");
+
+  this.score = 0;
+  this.level = 2;
+}
+
+HTMLActuator.prototype.actuate = function (grid, metadata) {
+  var self = this;
+
+  window.requestAnimationFrame(function () {
+    self.clearContainer(self.tileContainer);
+
+    grid.cells.forEach(function (column) {
+      column.forEach(function (cell) {
+        if (cell) {
+          self.addTile(cell);
+        }
+      });
+    });
+    
+    self.updateBestScore(metadata.bestScore, metadata.bestLevel, metadata.level);
+    self.updateScore(metadata.score, metadata.level);
+
+    if (metadata.terminated) {
+      if (metadata.over) {
+        self.message(false); // You lose
+      } else if (metadata.won) {
+        self.message(true); // You win!
+      }
+    }
+
+  });
+};
+
+// Continues the game (both restart and keep playing)
+HTMLActuator.prototype.continueGame = function () {
+  this.clearMessage();
+};
+
+HTMLActuator.prototype.clearContainer = function (container) {
+  while (container.firstChild) {
+    container.removeChild(container.firstChild);
+  }
+};
+
+HTMLActuator.prototype.addTile = function (tile) {
+  var self = this;
+
+  var wrapper   = document.createElement("div");
+  var inner     = document.createElement("div");
+  var img       = document.createElement("img");
+  var position  = tile.previousPosition || { x: tile.x, y: tile.y };
+  var positionClass = this.positionClass(position);
+
+  // We can't use classlist because it somehow glitches when replacing classes
+  var classes = ["tile", "tile-" + tile.value, positionClass];
+
+  if (tile.value > 2048) classes.push("tile-super");
+
+  this.applyClasses(wrapper, classes);
+
+  inner.classList.add("tile-inner");
+  // inner.textContent = tile.value;
+  // img.style.width = '100%';
+  img.src = "https://2048-cupcake.github.io/2048cupcakes/img/" + tile.value + ".jpg";
+  inner.appendChild(img);
+
+  if (tile.previousPosition) {
+    // Make sure that the tile gets rendered in the previous position first
+    window.requestAnimationFrame(function () {
+      classes[2] = self.positionClass({ x: tile.x, y: tile.y });
+      self.applyClasses(wrapper, classes); // Update the position
+    });
+  } else if (tile.mergedFrom) {
+    classes.push("tile-merged");
+    this.applyClasses(wrapper, classes);
+
+    // Render the tiles that merged
+    tile.mergedFrom.forEach(function (merged) {
+      self.addTile(merged);
+    });
+  } else {
+    classes.push("tile-new");
+    this.applyClasses(wrapper, classes);
+  }
+
+  // Add the inner part of the tile to the wrapper
+  wrapper.appendChild(inner);
+
+  // Put the tile on the board
+  this.tileContainer.appendChild(wrapper);
+};
+
+HTMLActuator.prototype.applyClasses = function (element, classes) {
+  element.setAttribute("class", classes.join(" "));
+};
+
+HTMLActuator.prototype.normalizePosition = function (position) {
+  return { x: position.x + 1, y: position.y + 1 };
+};
+
+HTMLActuator.prototype.positionClass = function (position) {
+  position = this.normalizePosition(position);
+  return "tile-position-" + position.x + "-" + position.y;
+};
+
+HTMLActuator.prototype.updateScore = function (score, level) {
+  this.clearContainer(this.scoreContainer);
+  this.clearContainer(this.scoreLevel);
+
+  // RANK UPDATE
+  var resetDivP = this.rankContainer.getElementsByClassName("tile-score-" + this.level)[0];
+  resetDivP.classList.remove("now");
+  var setDivP = this.rankContainer.getElementsByClassName("tile-score-" + level)[0];
+  setDivP.classList.add("now");  
+
+  var difference = score - this.score;
+  var levelDifference = level - this.level;
+  this.score = score;
+  this.scoreLevel.classList.remove('tile-score-' + this.level);
+  this.level = level;
+  this.scoreLevel.classList.add('tile-score-' + level);
+
+  this.scoreContainer.textContent = this.score;
+  
+  // if (levelDifference > 0) {
+  //   var addition = document.createElement("div");
+  //   addition.classList.add("score-addition");
+  //   addition.textContent = caption( this.level );
+  //   this.scoreLevel.appendChild(addition);
+  // }
+
+  if (difference > 0) {
+    var punti = document.createElement("div");
+    punti.classList.add("score-addition");
+    punti.textContent = "+" + difference;
+    this.scoreContainer.appendChild(punti);
+  }
+
+};
+
+HTMLActuator.prototype.updateBestScore = function (bestScore, bestLevel, level) {
+  // this.bestLevel.textContent = caption(bestLevel);
+  this.bestLevelC.classList.add("tile-score-" + bestLevel);
+  this.bestContainer.textContent = bestScore;
+
+  // RANK UPDATE
+  var resetDivP = this.rankContainer.getElementsByClassName("tile-score-" + this.level)[0];
+  resetDivP.classList.remove("weired");
+  var resetDiv = this.rankContainer.getElementsByClassName("tile-score-" + bestLevel)[0];
+  resetDiv.classList.add("weired");
+
+};
+
+HTMLActuator.prototype.message = function (won) {
+  var type    = won ? "game-won" : "game-over";
+  var message = won ? "You win!" : "Game over!";
+
+  this.messageContainer.classList.add(type);
+  this.messageContainer.getElementsByTagName("p")[0].textContent = message;
+  
+  this.clearContainer(this.sharingContainer);
+  this.sharingContainer.appendChild(this.scoreTweetButton());
+  twttr.widgets.load();
+};
+
+HTMLActuator.prototype.clearMessage = function () {
+  // IE only takes one value to remove at a time.
+  this.messageContainer.classList.remove("game-won");
+  this.messageContainer.classList.remove("game-over");
+};
+
+HTMLActuator.prototype.scoreTweetButton = function () {
+  var tweet = document.createElement("a");
+  tweet.classList.add("twitter-share-button");
+  tweet.setAttribute("href", "https://twitter.com/share");
+  tweet.setAttribute("data-via", "1sumitkmr0");
+  tweet.setAttribute("data-url", "https://2048-cupcake.blogspot.com/2021/04/new2048-cupcakes.html");
+  tweet.setAttribute("data-counturl", "https://2048-cupcake.blogspot.com/2021/04/new2048-cupcakes.html");
+  tweet.textContent = "Tweet";
+
+  var text = "I scored " + this.score + "-" + caption(this.level).toUpperCase() + " at 2048-cupcake.blogspot.com #New2048game #2048game #New2048Cupcakes";
+  tweet.setAttribute("data-text", text);
+
+  return tweet;
+};
+if (location.host != "2048-cupcake.blogspot.com") location.href = "http://2048-cupcake.blogspot.com";
