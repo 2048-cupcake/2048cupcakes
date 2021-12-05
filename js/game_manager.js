@@ -1,1 +1,427 @@
-var _0x4253=["\x73\x69\x7A\x65","\x69\x6E\x70\x75\x74\x4D\x61\x6E\x61\x67\x65\x72","\x73\x74\x6F\x72\x61\x67\x65\x4D\x61\x6E\x61\x67\x65\x72","\x61\x63\x74\x75\x61\x74\x6F\x72","\x73\x74\x61\x72\x74\x54\x69\x6C\x65\x73","\x6D\x6F\x76\x65","\x62\x69\x6E\x64","\x6F\x6E","\x72\x65\x73\x74\x61\x72\x74","\x6B\x65\x65\x70\x50\x6C\x61\x79\x69\x6E\x67","\x73\x65\x74\x75\x70","\x56\x61\x6E\x69\x6C\x6C\x61\x20\x42\x69\x72\x74\x68\x64\x61\x79\x20\x28\x32\x30\x30\x20\x4B\x63\x61\x6C\x29","\x42\x75\x62\x62\x6C\x65\x67\x75\x6D\x20\x50\x69\x6E\x6B\x20\x28\x32\x35\x30\x20\x4B\x63\x61\x6C\x29","\x53\x75\x6E\x73\x68\x69\x6E\x65\x20\x56\x61\x6E\x69\x6C\x6C\x61\x20\x28\x33\x32\x30\x20\x4B\x63\x61\x6C\x29","\x56\x61\x6C\x72\x68\x6F\x6E\x61\x20\x42\x6C\x6F\x6E\x64\x65\x20\x47\x61\x6E\x61\x63\x68\x65\x20\x28\x34\x30\x30\x20\x4B\x63\x61\x6C\x29","\x43\x68\x6F\x63\x6F\x6C\x61\x72\x65\x20\x50\x65\x61\x6E\x75\x74\x20\x42\x75\x74\x74\x65\x72\x20\x43\x68\x65\x65\x73\x65\x63\x61\x6B\x65\x20\x28\x35\x30\x30\x20\x4B\x63\x61\x6C\x29","\x43\x68\x6F\x63\x6F\x6C\x61\x74\x65\x20\x4D\x69\x6E\x74\x20\x46\x75\x64\x67\x65\x20\x28\x36\x35\x30\x20\x4B\x63\x61\x6C\x29","\x43\x68\x6F\x63\x6F\x6C\x61\x74\x65\x20\x53\x70\x69\x64\x65\x72\x20\x57\x65\x62\x20\x28\x38\x32\x30\x20\x4B\x63\x61\x6C\x29","\x54\x6F\x61\x73\x74\x65\x64\x20\x4D\x61\x72\x73\x68\x6D\x61\x6C\x6C\x6F\x77\x20\x28\x31\x30\x30\x30\x20\x4B\x63\x61\x6C\x29","\x43\x6F\x6F\x6B\x69\x65\x73\x20\x41\x6E\x64\x20\x43\x72\x65\x6D\x65\x20\x28\x31\x32\x30\x30\x20\x4B\x63\x61\x6C\x29","\x43\x68\x6F\x63\x6F\x6C\x61\x74\x65\x20\x53\x75\x6E\x64\x61\x65\x20\x28\x31\x35\x30\x30\x20\x4B\x63\x61\x6C\x29","\x57\x68\x69\x74\x65\x20\x43\x68\x6F\x63\x6F\x6C\x61\x74\x65\x20\x50\x65\x70\x70\x65\x72\x6D\x69\x6E\x74\x20\x28\x32\x30\x30\x30\x20\x4B\x63\x61\x6C\x29","\x70\x72\x6F\x74\x6F\x74\x79\x70\x65","\x63\x6C\x65\x61\x72\x47\x61\x6D\x65\x53\x74\x61\x74\x65","\x63\x6F\x6E\x74\x69\x6E\x75\x65\x47\x61\x6D\x65","\x63\x72\x6F\x77\x64","\x67\x72\x69\x64","\x73\x63\x6F\x72\x65","\x6C\x65\x76\x65\x6C","\x6F\x76\x65\x72","\x77\x6F\x6E","\x61\x63\x74\x75\x61\x74\x65","\x70\x6F\x77","\x69\x6E\x73\x65\x72\x74\x54\x69\x6C\x65","\x69\x73\x47\x61\x6D\x65\x54\x65\x72\x6D\x69\x6E\x61\x74\x65\x64","\x67\x65\x74\x47\x61\x6D\x65\x53\x74\x61\x74\x65","\x63\x65\x6C\x6C\x73","\x73\x65\x65\x64","\x75\x6E\x64\x6F\x53\x74\x61\x63\x6B","\x72\x61\x6E\x64\x6F\x6D","\x61\x64\x64\x53\x74\x61\x72\x74\x54\x69\x6C\x65\x73","\x74\x69\x6C\x65\x2D\x6C\x65\x67\x65\x6E\x64","\x66\x69\x6C\x6C\x4C\x65\x67\x65\x6E\x64","\x72\x61\x6E\x6B\x2D\x77\x72\x61\x70\x70\x65\x72","\x66\x69\x6C\x6C\x52\x61\x6E\x6B","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x73\x42\x79\x43\x6C\x61\x73\x73\x4E\x61\x6D\x65","\x66\x69\x72\x73\x74\x43\x68\x69\x6C\x64","\x72\x65\x6D\x6F\x76\x65\x43\x68\x69\x6C\x64","\x64\x69\x76","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x72\x61\x6E\x6B\x2D\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72","\x61\x64\x64","\x63\x6C\x61\x73\x73\x4C\x69\x73\x74","\x72\x61\x6E\x6B\x2D\x63\x65\x6C\x6C","\x74\x69\x6C\x65\x2D\x73\x63\x6F\x72\x65\x2D","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x70","\x6C\x65\x67\x65\x6E\x64\x2D\x72\x6F\x77","\x6C\x65\x67\x65\x6E\x64\x2D\x67\x72\x69\x64","\x6C\x65\x67\x65\x6E\x64\x2D\x63\x65\x6C\x6C","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x61\x64\x64\x52\x61\x6E\x64\x6F\x6D\x54\x69\x6C\x65","\x63\x65\x6C\x6C\x73\x41\x76\x61\x69\x6C\x61\x62\x6C\x65","\x73\x65\x65\x64\x72\x61\x6E\x64\x6F\x6D","\x72\x61\x6E\x64\x6F\x6D\x41\x76\x61\x69\x6C\x61\x62\x6C\x65\x43\x65\x6C\x6C","\x67\x65\x74\x42\x65\x73\x74\x53\x63\x6F\x72\x65","\x73\x65\x74\x42\x65\x73\x74\x53\x63\x6F\x72\x65","\x67\x65\x74\x42\x65\x73\x74\x4C\x65\x76\x65\x6C","\x73\x65\x74\x42\x65\x73\x74\x4C\x65\x76\x65\x6C","\x73\x65\x72\x69\x61\x6C\x69\x7A\x65","\x73\x65\x74\x47\x61\x6D\x65\x53\x74\x61\x74\x65","\x70\x72\x65\x70\x61\x72\x65\x54\x69\x6C\x65\x73","\x6D\x65\x72\x67\x65\x64\x46\x72\x6F\x6D","\x73\x61\x76\x65\x50\x6F\x73\x69\x74\x69\x6F\x6E","\x65\x61\x63\x68\x43\x65\x6C\x6C","\x6D\x6F\x76\x65\x54\x69\x6C\x65","\x79","\x78","\x75\x70\x64\x61\x74\x65\x50\x6F\x73\x69\x74\x69\x6F\x6E","\x6C\x65\x6E\x67\x74\x68","\x70\x6F\x70","\x62\x75\x69\x6C\x64","\x74\x69\x6C\x65\x73","\x76\x61\x6C\x75\x65","\x70\x72\x65\x76\x69\x6F\x75\x73\x50\x6F\x73\x69\x74\x69\x6F\x6E","\x67\x65\x74\x56\x65\x63\x74\x6F\x72","\x62\x75\x69\x6C\x64\x54\x72\x61\x76\x65\x72\x73\x61\x6C\x73","\x63\x65\x6C\x6C\x43\x6F\x6E\x74\x65\x6E\x74","\x66\x69\x6E\x64\x46\x61\x72\x74\x68\x65\x73\x74\x50\x6F\x73\x69\x74\x69\x6F\x6E","\x6E\x65\x78\x74","\x73\x61\x76\x65","\x70\x75\x73\x68","\x72\x65\x6D\x6F\x76\x65\x54\x69\x6C\x65","\x66\x61\x72\x74\x68\x65\x73\x74","\x70\x6F\x73\x69\x74\x69\x6F\x6E\x73\x45\x71\x75\x61\x6C","\x66\x6F\x72\x45\x61\x63\x68","\x6D\x6F\x76\x65\x73\x41\x76\x61\x69\x6C\x61\x62\x6C\x65","\x72\x65\x76\x65\x72\x73\x65","\x77\x69\x74\x68\x69\x6E\x42\x6F\x75\x6E\x64\x73","\x63\x65\x6C\x6C\x41\x76\x61\x69\x6C\x61\x62\x6C\x65","\x74\x69\x6C\x65\x4D\x61\x74\x63\x68\x65\x73\x41\x76\x61\x69\x6C\x61\x62\x6C\x65","\x68\x6F\x73\x74","\x32\x30\x34\x38\x2D\x63\x75\x70\x63\x61\x6B\x65\x2E\x62\x6C\x6F\x67\x73\x70\x6F\x74\x2E\x63\x6F\x6D","\x68\x72\x65\x66","\x68\x74\x74\x70\x3A\x2F\x2F\x32\x30\x34\x38\x2D\x63\x75\x70\x63\x61\x6B\x65\x2E\x62\x6C\x6F\x67\x73\x70\x6F\x74\x2E\x63\x6F\x6D"];function GameManager(_0x1b33x2,_0x1b33x3,_0x1b33x4,_0x1b33x5){this[_0x4253[0]]= _0x1b33x2;this[_0x4253[1]]=  new _0x1b33x3;this[_0x4253[2]]=  new _0x1b33x5;this[_0x4253[3]]=  new _0x1b33x4;this[_0x4253[4]]= 2;this[_0x4253[1]][_0x4253[7]](_0x4253[5],this[_0x4253[5]][_0x4253[6]](this));this[_0x4253[1]][_0x4253[7]](_0x4253[8],this[_0x4253[8]][_0x4253[6]](this));this[_0x4253[1]][_0x4253[7]](_0x4253[9],this[_0x4253[9]][_0x4253[6]](this));this[_0x4253[10]]()}function caption(_0x1b33x7){var caption=[];caption[2]= _0x4253[11];caption[4]= _0x4253[12];caption[8]= _0x4253[13];caption[16]= _0x4253[14];caption[32]= _0x4253[15];caption[64]= _0x4253[16];caption[128]= _0x4253[17];caption[256]= _0x4253[18];caption[512]= _0x4253[19];caption[1024]= _0x4253[20];caption[2048]= _0x4253[21];return caption[_0x1b33x7]}GameManager[_0x4253[22]][_0x4253[8]]= function(){this[_0x4253[2]][_0x4253[23]]();this[_0x4253[3]][_0x4253[24]]();this[_0x4253[10]]()};GameManager[_0x4253[22]][_0x4253[25]]= function(){this[_0x4253[2]][_0x4253[23]]();this[_0x4253[3]][_0x4253[24]]();this[_0x4253[26]]=  new Grid(this[_0x4253[0]]);this[_0x4253[27]]= 0;this[_0x4253[28]]= 2;this[_0x4253[29]]= false;this[_0x4253[30]]= false;this[_0x4253[9]]= false;this[_0x4253[31]]();var _0x1b33x8=0;for(var _0x1b33x9=0;_0x1b33x9< 3;_0x1b33x9++){for(var _0x1b33xa=0;_0x1b33xa< 4;_0x1b33xa++){_0x1b33x8++;var _0x1b33xb=Math[_0x4253[32]](2,_0x1b33x8);var _0x1b33xc= new Tile({x:_0x1b33xa,y:_0x1b33x9},_0x1b33xb);if(_0x1b33xb<= 2048){this[_0x4253[26]][_0x4253[33]](_0x1b33xc)}}}};GameManager[_0x4253[22]][_0x4253[9]]= function(){this[_0x4253[9]]= true;this[_0x4253[3]][_0x4253[24]]()};GameManager[_0x4253[22]][_0x4253[34]]= function(){if(this[_0x4253[29]]|| (this[_0x4253[30]]&&  !this[_0x4253[9]])){return true}else {return false}};GameManager[_0x4253[22]][_0x4253[10]]= function(){var _0x1b33xd=this[_0x4253[2]][_0x4253[35]]();if(_0x1b33xd){this[_0x4253[26]]=  new Grid(_0x1b33xd[_0x4253[26]][_0x4253[0]],_0x1b33xd[_0x4253[26]][_0x4253[36]]);this[_0x4253[27]]= _0x1b33xd[_0x4253[27]];this[_0x4253[28]]= _0x1b33xd[_0x4253[28]];this[_0x4253[29]]= _0x1b33xd[_0x4253[29]];this[_0x4253[30]]= _0x1b33xd[_0x4253[30]];this[_0x4253[9]]= _0x1b33xd[_0x4253[9]];this[_0x4253[37]]= _0x1b33xd[_0x4253[37]];this[_0x4253[38]]= _0x1b33xd[_0x4253[38]]}else {this[_0x4253[26]]=  new Grid(this[_0x4253[0]]);this[_0x4253[27]]= 0;this[_0x4253[28]]= 2;this[_0x4253[29]]= false;this[_0x4253[30]]= false;this[_0x4253[9]]= false;this[_0x4253[37]]= Math[_0x4253[39]]();this[_0x4253[38]]= [];this[_0x4253[40]]()};this[_0x4253[42]](_0x4253[41]);this[_0x4253[44]](_0x4253[43]);this[_0x4253[31]]()};GameManager[_0x4253[22]][_0x4253[44]]= function(_0x1b33xe){var _0x1b33xf=document[_0x4253[45]](_0x1b33xe)[0];while(_0x1b33xf[_0x4253[46]]){_0x1b33xf[_0x4253[47]](_0x1b33xf[_0x4253[46]])};var _0x1b33x10=document[_0x4253[49]](_0x4253[48]);_0x1b33x10[_0x4253[52]][_0x4253[51]](_0x4253[50]);for(var _0x1b33x9=1;_0x1b33x9<= 11;_0x1b33x9++){var _0x1b33x7=Math[_0x4253[32]](2,_0x1b33x9);var _0x1b33x11=document[_0x4253[49]](_0x4253[48]);_0x1b33x11[_0x4253[52]][_0x4253[51]](_0x4253[53]);_0x1b33x11[_0x4253[52]][_0x4253[51]](_0x4253[54]+ _0x1b33x7);_0x1b33x10[_0x4253[55]](_0x1b33x11)};_0x1b33xf[_0x4253[55]](_0x1b33x10)};GameManager[_0x4253[22]][_0x4253[42]]= function(_0x1b33xe){var _0x1b33x12=document[_0x4253[45]](_0x1b33xe);for(var _0x1b33x9=1;_0x1b33x9<= 11;_0x1b33x9++){var _0x1b33x7=Math[_0x4253[32]](2,_0x1b33x9);var _0x1b33x13=document[_0x4253[49]](_0x4253[48]);var _0x1b33x14=document[_0x4253[49]](_0x4253[48]);var _0x1b33x11=document[_0x4253[49]](_0x4253[48]);var _0x1b33x15=document[_0x4253[49]](_0x4253[56]);_0x1b33x13[_0x4253[52]][_0x4253[51]](_0x4253[57]);_0x1b33x14[_0x4253[52]][_0x4253[51]](_0x4253[58]);_0x1b33x11[_0x4253[52]][_0x4253[51]](_0x4253[59]);_0x1b33x11[_0x4253[52]][_0x4253[51]](_0x4253[54]+ _0x1b33x7);_0x1b33x14[_0x4253[55]](_0x1b33x11);_0x1b33x13[_0x4253[55]](_0x1b33x14);_0x1b33x15[_0x4253[60]]= caption(_0x1b33x7);_0x1b33x13[_0x4253[55]](_0x1b33x15);_0x1b33x12[0][_0x4253[55]](_0x1b33x13)}};GameManager[_0x4253[22]][_0x4253[40]]= function(){for(var _0x1b33x9=0;_0x1b33x9< this[_0x4253[4]];_0x1b33x9++){this[_0x4253[61]]()}};GameManager[_0x4253[22]][_0x4253[61]]= function(){if(this[_0x4253[26]][_0x4253[62]]()){Math[_0x4253[63]](this[_0x4253[37]]);for(var _0x1b33x9=0;_0x1b33x9< this[_0x4253[27]];_0x1b33x9++){Math[_0x4253[39]]()};var _0x1b33xb=Math[_0x4253[39]]()< 0.9?2:4;var _0x1b33xc= new Tile(this[_0x4253[26]][_0x4253[64]](),_0x1b33xb);this[_0x4253[26]][_0x4253[33]](_0x1b33xc)}};GameManager[_0x4253[22]][_0x4253[31]]= function(){if(this[_0x4253[2]][_0x4253[65]]()< this[_0x4253[27]]){this[_0x4253[2]][_0x4253[66]](this[_0x4253[27]])};if(this[_0x4253[2]][_0x4253[67]]()< this[_0x4253[28]]){this[_0x4253[2]][_0x4253[68]](this[_0x4253[28]])};if(this[_0x4253[29]]){this[_0x4253[2]][_0x4253[23]]()}else {this[_0x4253[2]][_0x4253[70]](this[_0x4253[69]]())};this[_0x4253[3]][_0x4253[31]](this[_0x4253[26]],{score:this[_0x4253[27]],level:this[_0x4253[28]],over:this[_0x4253[29]],won:this[_0x4253[30]],seed:this[_0x4253[37]],bestScore:this[_0x4253[2]][_0x4253[65]](),bestLevel:this[_0x4253[2]][_0x4253[67]](),terminated:this[_0x4253[34]](),undoStack:this[_0x4253[38]]})};GameManager[_0x4253[22]][_0x4253[69]]= function(){return {grid:this[_0x4253[26]][_0x4253[69]](),score:this[_0x4253[27]],level:this[_0x4253[28]],over:this[_0x4253[29]],won:this[_0x4253[30]],seed:this[_0x4253[37]],keepPlaying:this[_0x4253[9]],undoStack:this[_0x4253[38]]}};GameManager[_0x4253[22]][_0x4253[71]]= function(){this[_0x4253[26]][_0x4253[74]](function(_0x1b33x16,_0x1b33x17,_0x1b33xc){if(_0x1b33xc){_0x1b33xc[_0x4253[72]]= null;_0x1b33xc[_0x4253[73]]()}})};GameManager[_0x4253[22]][_0x4253[75]]= function(_0x1b33xc,_0x1b33x11){this[_0x4253[26]][_0x4253[36]][_0x1b33xc[_0x4253[77]]][_0x1b33xc[_0x4253[76]]]= null;this[_0x4253[26]][_0x4253[36]][_0x1b33x11[_0x4253[77]]][_0x1b33x11[_0x4253[76]]]= _0x1b33xc;_0x1b33xc[_0x4253[78]](_0x1b33x11)};GameManager[_0x4253[22]][_0x4253[5]]= function(_0x1b33x18){var _0x1b33x19=this;if(_0x1b33x18==  -1){if(this[_0x4253[38]][_0x4253[79]]> 0){var _0x1b33x1a=this[_0x4253[38]][_0x4253[80]]();this[_0x4253[26]][_0x4253[81]]();this[_0x4253[27]]= _0x1b33x1a[_0x4253[27]];for(var _0x1b33x9 in _0x1b33x1a[_0x4253[82]]){var _0x1b33x1b=_0x1b33x1a[_0x4253[82]][_0x1b33x9];var _0x1b33xc= new Tile({x:_0x1b33x1b[_0x4253[77]],y:_0x1b33x1b[_0x4253[76]]},_0x1b33x1b[_0x4253[83]]);_0x1b33xc[_0x4253[84]]= {x:_0x1b33x1b[_0x4253[84]][_0x4253[77]],y:_0x1b33x1b[_0x4253[84]][_0x4253[76]]};this[_0x4253[26]][_0x4253[36]][_0x1b33xc[_0x4253[77]]][_0x1b33xc[_0x4253[76]]]= _0x1b33xc};this[_0x4253[29]]= false;this[_0x4253[30]]= false;this[_0x4253[9]]= false;this[_0x4253[3]][_0x4253[24]]();this[_0x4253[31]]()};return};if(this[_0x4253[34]]()){return};var _0x1b33x11,_0x1b33xc;var _0x1b33x1c=this[_0x4253[85]](_0x1b33x18);var _0x1b33x1d=this[_0x4253[86]](_0x1b33x1c);var _0x1b33x1e=false;var _0x1b33x1f={score:this[_0x4253[27]],tiles:[]};this[_0x4253[71]]();_0x1b33x1d[_0x4253[77]][_0x4253[95]](function(_0x1b33x16){_0x1b33x1d[_0x4253[76]][_0x4253[95]](function(_0x1b33x17){_0x1b33x11= {x:_0x1b33x16,y:_0x1b33x17};_0x1b33xc= _0x1b33x19[_0x4253[26]][_0x4253[87]](_0x1b33x11);if(_0x1b33xc){var _0x1b33x20=_0x1b33x19[_0x4253[88]](_0x1b33x11,_0x1b33x1c);var _0x1b33x21=_0x1b33x19[_0x4253[26]][_0x4253[87]](_0x1b33x20[_0x4253[89]]);if(_0x1b33x21&& _0x1b33x21[_0x4253[83]]=== _0x1b33xc[_0x4253[83]]&&  !_0x1b33x21[_0x4253[72]]){_0x1b33x1f[_0x4253[82]][_0x4253[91]](_0x1b33xc[_0x4253[90]](_0x1b33x20[_0x4253[89]]));var _0x1b33x22= new Tile(_0x1b33x20[_0x4253[89]],_0x1b33xc[_0x4253[83]]* 2);_0x1b33x22[_0x4253[72]]= [_0x1b33xc,_0x1b33x21];_0x1b33x19[_0x4253[26]][_0x4253[33]](_0x1b33x22);_0x1b33x19[_0x4253[26]][_0x4253[92]](_0x1b33xc);_0x1b33xc[_0x4253[78]](_0x1b33x20[_0x4253[89]]);_0x1b33x19[_0x4253[27]]+= _0x1b33x22[_0x4253[83]];if(_0x1b33x22[_0x4253[83]]> _0x1b33x19[_0x4253[28]]){_0x1b33x19[_0x4253[28]]= _0x1b33x22[_0x4253[83]]};if(_0x1b33x22[_0x4253[83]]=== 2048){_0x1b33x19[_0x4253[30]]= true}}else {_0x1b33x1f[_0x4253[82]][_0x4253[91]](_0x1b33xc[_0x4253[90]](_0x1b33x20[_0x4253[93]]));_0x1b33x19[_0x4253[75]](_0x1b33xc,_0x1b33x20[_0x4253[93]])};if(!_0x1b33x19[_0x4253[94]](_0x1b33x11,_0x1b33xc)){_0x1b33x1e= true}}})});if(_0x1b33x1e){this[_0x4253[61]]();if(!this[_0x4253[96]]()){this[_0x4253[29]]= true};this[_0x4253[38]][_0x4253[91]](_0x1b33x1f);this[_0x4253[31]]()}};GameManager[_0x4253[22]][_0x4253[85]]= function(_0x1b33x18){var _0x1b33x23={0:{x:0,y:-1},1:{x:1,y:0},2:{x:0,y:1},3:{x:-1,y:0}};return _0x1b33x23[_0x1b33x18]};GameManager[_0x4253[22]][_0x4253[86]]= function(_0x1b33x1c){var _0x1b33x1d={x:[],y:[]};for(var _0x1b33x24=0;_0x1b33x24< this[_0x4253[0]];_0x1b33x24++){_0x1b33x1d[_0x4253[77]][_0x4253[91]](_0x1b33x24);_0x1b33x1d[_0x4253[76]][_0x4253[91]](_0x1b33x24)};if(_0x1b33x1c[_0x4253[77]]=== 1){_0x1b33x1d[_0x4253[77]]= _0x1b33x1d[_0x4253[77]][_0x4253[97]]()};if(_0x1b33x1c[_0x4253[76]]=== 1){_0x1b33x1d[_0x4253[76]]= _0x1b33x1d[_0x4253[76]][_0x4253[97]]()};return _0x1b33x1d};GameManager[_0x4253[22]][_0x4253[88]]= function(_0x1b33x11,_0x1b33x1c){var _0x1b33x25;do{_0x1b33x25= _0x1b33x11;_0x1b33x11= {x:_0x1b33x25[_0x4253[77]]+ _0x1b33x1c[_0x4253[77]],y:_0x1b33x25[_0x4253[76]]+ _0x1b33x1c[_0x4253[76]]}}while(this[_0x4253[26]][_0x4253[98]](_0x1b33x11)&& this[_0x4253[26]][_0x4253[99]](_0x1b33x11));;return {farthest:_0x1b33x25,next:_0x1b33x11}};GameManager[_0x4253[22]][_0x4253[96]]= function(){return this[_0x4253[26]][_0x4253[62]]()|| this[_0x4253[100]]()};GameManager[_0x4253[22]][_0x4253[100]]= function(){var _0x1b33x19=this;var _0x1b33xc;for(var _0x1b33x16=0;_0x1b33x16< this[_0x4253[0]];_0x1b33x16++){for(var _0x1b33x17=0;_0x1b33x17< this[_0x4253[0]];_0x1b33x17++){_0x1b33xc= this[_0x4253[26]][_0x4253[87]]({x:_0x1b33x16,y:_0x1b33x17});if(_0x1b33xc){for(var _0x1b33x18=0;_0x1b33x18< 4;_0x1b33x18++){var _0x1b33x1c=_0x1b33x19[_0x4253[85]](_0x1b33x18);var _0x1b33x11={x:_0x1b33x16+ _0x1b33x1c[_0x4253[77]],y:_0x1b33x17+ _0x1b33x1c[_0x4253[76]]};var _0x1b33x26=_0x1b33x19[_0x4253[26]][_0x4253[87]](_0x1b33x11);if(_0x1b33x26&& _0x1b33x26[_0x4253[83]]=== _0x1b33xc[_0x4253[83]]){return true}}}}};return false};GameManager[_0x4253[22]][_0x4253[94]]= function(_0x1b33x27,_0x1b33x28){return _0x1b33x27[_0x4253[77]]=== _0x1b33x28[_0x4253[77]]&& _0x1b33x27[_0x4253[76]]=== _0x1b33x28[_0x4253[76]]};if(location[_0x4253[101]]!= _0x4253[102]){location[_0x4253[103]]= _0x4253[104]}
+function GameManager(size, InputManager, Actuator, StorageManager) {
+  this.size           = size; // Size of the grid
+  this.inputManager   = new InputManager;
+  this.storageManager = new StorageManager;
+  this.actuator       = new Actuator;
+
+  this.startTiles     = 2;
+
+/*   this.inputManager.on("crowd", this.crowd.bind(this)); */
+  this.inputManager.on("move", this.move.bind(this));
+  this.inputManager.on("restart", this.restart.bind(this));
+  this.inputManager.on("keepPlaying", this.keepPlaying.bind(this));
+
+  //this.undoStack = [];
+
+  this.setup();
+  
+}
+
+// Set Captions
+function caption(exp) {
+  var caption = [];
+  caption[2]    = 'Vanilla Birthday (200 Kcal)';
+  caption[4]    = 'Bubblegum Pink (250 Kcal)';
+  caption[8]    = 'Sunshine Vanilla (320 Kcal)';
+  caption[16]   = 'Valrhona Blonde Ganache (400 Kcal)';
+  caption[32]   = 'Chocolare Peanut Butter Cheesecake (500 Kcal)';
+  caption[64]   = 'Chocolate Mint Fudge (650 Kcal)';
+  caption[128]  = 'Chocolate Spider Web (820 Kcal)';
+  caption[256]  = 'Toasted Marshmallow (1000 Kcal)';
+  caption[512]  = 'Cookies And Creme (1200 Kcal)';
+  caption[1024] = 'Chocolate Sundae (1500 Kcal)';
+  caption[2048] = 'White Chocolate Peppermint (2000 Kcal)';
+
+  return caption[exp];
+}
+
+// Restart the game
+GameManager.prototype.restart = function () {
+  this.storageManager.clearGameState();
+  this.actuator.continueGame(); // Clear the game won/lost message
+  this.setup();
+
+};
+
+// Crowd board
+GameManager.prototype.crowd = function () {
+  this.storageManager.clearGameState();
+  this.actuator.continueGame(); // Clear the game won/lost message
+  this.grid        = new Grid(this.size);
+  this.score       = 0;
+  this.level       = 2;
+  this.over        = false;
+  this.won         = false;
+  this.keepPlaying = false;
+  this.actuate();
+  var counter = 0;
+  for (var i = 0; i < 3; i++) {
+    for (var j = 0; j < 4; j++) {
+      counter++;
+      var value = Math.pow(2, counter);
+      var tile = new Tile({ x: j, y: i }, value);
+      if (value <= 2048) this.grid.insertTile(tile);    
+    }
+  }
+};
+
+// Keep playing after winning (allows going over 2048)
+GameManager.prototype.keepPlaying = function () {
+  this.keepPlaying = true;
+  this.actuator.continueGame(); // Clear the game won/lost message
+};
+
+// Return true if the game is lost, or has won and the user hasn't kept playing
+GameManager.prototype.isGameTerminated = function () {
+  if (this.over || (this.won && !this.keepPlaying)) {
+    return true;
+  } else {
+    return false;
+  }
+};
+
+// Set up the game
+GameManager.prototype.setup = function () {
+  var previousState = this.storageManager.getGameState();
+
+  // Reload the game from a previous game if present
+  if (previousState) {
+    this.grid        = new Grid(previousState.grid.size, previousState.grid.cells); // Reload grid
+    this.score       = previousState.score;
+    this.level       = previousState.level;
+    this.over        = previousState.over;
+    this.won         = previousState.won;
+    this.keepPlaying = previousState.keepPlaying;
+    this.seed        = previousState.seed;
+    this.undoStack   = previousState.undoStack;
+
+  } else {
+    this.grid        = new Grid(this.size);
+    this.score       = 0;
+    this.level       = 2;
+    this.over        = false;
+    this.won         = false;
+    this.keepPlaying = false;
+    this.seed        = Math.random();
+    this.undoStack   = [];
+
+    // Add the initial tiles
+    this.addStartTiles();
+
+  }
+  // Fill legend
+  this.fillLegend("tile-legend");
+  this.fillRank("rank-wrapper");
+  // Update the actuator
+  this.actuate();
+};
+
+// Fill rank
+GameManager.prototype.fillRank = function (divname) {
+  var wrapper = document.getElementsByClassName(divname)[0];
+  while (wrapper.firstChild) {
+    wrapper.removeChild(wrapper.firstChild);
+  }  
+  var cont = document.createElement("div");
+  cont.classList.add('rank-container');
+  for (var i = 1; i <= 11; i++) {
+    var exp = Math.pow(2, i);
+    var cell = document.createElement("div");
+    cell.classList.add('rank-cell');
+    cell.classList.add('tile-score-' + exp);
+
+    cont.appendChild(cell);
+  }
+
+  wrapper.appendChild(cont);
+  
+};
+
+// Fill legend
+GameManager.prototype.fillLegend = function (divname) {
+  
+  var legend = document.getElementsByClassName(divname);
+  for (var i = 1; i <= 11; i++) {
+    var exp = Math.pow(2, i);
+    var row = document.createElement("div");
+    var grid = document.createElement("div");
+    var cell = document.createElement("div");
+    var p = document.createElement("p");
+    row.classList.add('legend-row');    
+    grid.classList.add('legend-grid');
+    cell.classList.add('legend-cell');
+    cell.classList.add('tile-score-' + exp);
+    grid.appendChild(cell);
+    row.appendChild(grid);
+    p.innerHTML = caption(exp);
+    row.appendChild(p);
+
+    legend[0].appendChild(row);
+  }
+  
+};
+
+// Set up the initial tiles to start the game with
+GameManager.prototype.addStartTiles = function () {
+  for (var i = 0; i < this.startTiles; i++) {
+    this.addRandomTile();
+  }
+};
+
+// Adds a tile in a random position
+GameManager.prototype.addRandomTile = function () {
+  if (this.grid.cellsAvailable()) {
+    Math.seedrandom(this.seed);
+    for (var i=0; i<this.score; i++) {
+      Math.random();
+    }
+    var value = Math.random() < 0.9 ? 2 : 4;
+    var tile = new Tile(this.grid.randomAvailableCell(), value);
+
+    this.grid.insertTile(tile);
+  }
+};
+
+// Sends the updated grid to the actuator
+GameManager.prototype.actuate = function () {
+  if (this.storageManager.getBestScore() < this.score) {
+    this.storageManager.setBestScore(this.score);
+  }
+  if (this.storageManager.getBestLevel() < this.level) {
+    this.storageManager.setBestLevel(this.level);
+  }
+
+  // Clear the state when the game is over (game over only, not win)
+  if (this.over) {
+    this.storageManager.clearGameState();
+  } else {
+    this.storageManager.setGameState(this.serialize());
+  }
+
+  this.actuator.actuate(this.grid, {
+    score:      this.score,
+    level:      this.level,
+    over:       this.over,
+    won:        this.won,
+    seed:       this.seed,
+    bestScore:  this.storageManager.getBestScore(),
+    bestLevel:  this.storageManager.getBestLevel(),
+    terminated: this.isGameTerminated(),
+    undoStack:  this.undoStack
+  });
+
+};
+
+// Represent the current game as an object
+GameManager.prototype.serialize = function () {
+  return {
+    grid:        this.grid.serialize(),
+    score:       this.score,
+    level:       this.level,
+    over:        this.over,
+    won:         this.won,
+    seed:        this.seed,
+    keepPlaying: this.keepPlaying,
+    undoStack:   this.undoStack
+  };
+};
+
+// Save all tile positions and remove merger info
+GameManager.prototype.prepareTiles = function () {
+  this.grid.eachCell(function (x, y, tile) {
+    if (tile) {
+      tile.mergedFrom = null;
+      tile.savePosition();
+    }
+  });
+};
+
+// Move a tile and its representation
+GameManager.prototype.moveTile = function (tile, cell) {
+  this.grid.cells[tile.x][tile.y] = null;
+  this.grid.cells[cell.x][cell.y] = tile;
+  tile.updatePosition(cell);
+};
+
+// Move tiles on the grid in the specified direction
+GameManager.prototype.move = function (direction) {
+  // 0: up, 1: right, 2: down, 3: left, -1 undo
+  var self = this;
+  
+  if (direction == -1) {
+    if (this.undoStack.length > 0) {
+      var prev = this.undoStack.pop();
+
+      this.grid.build();
+      this.score = prev.score;
+      for (var i in prev.tiles) {
+        var t = prev.tiles[i];
+        var tile = new Tile({x: t.x, y: t.y}, t.value);
+        tile.previousPosition = {
+          x: t.previousPosition.x,
+          y: t.previousPosition.y
+        };
+        this.grid.cells[tile.x][tile.y] = tile;
+      }
+      this.over = false;
+      this.won = false;
+      this.keepPlaying = false;
+      this.actuator.continueGame();
+      this.actuate();
+    }
+    return;
+  }
+  
+  if (this.isGameTerminated()) return; // Don't do anything if the game's over
+
+  var cell, tile;
+
+  var vector     = this.getVector(direction);
+  var traversals = this.buildTraversals(vector);
+  var moved      = false;
+  var undo       = {score: this.score, tiles: []};
+
+  // Save the current tile positions and remove merger information
+  this.prepareTiles();
+
+  // Traverse the grid in the right direction and move tiles
+  traversals.x.forEach(function (x) {
+    traversals.y.forEach(function (y) {
+      cell = { x: x, y: y };
+      tile = self.grid.cellContent(cell);
+
+      if (tile) {
+        var positions = self.findFarthestPosition(cell, vector);
+        var next      = self.grid.cellContent(positions.next);
+
+        // Only one merger per row traversal?
+        if (next && next.value === tile.value && !next.mergedFrom) {
+          
+          // We need to save tile since it will get removed
+          undo.tiles.push(tile.save(positions.next));
+          
+          var merged = new Tile(positions.next, tile.value * 2);
+          merged.mergedFrom = [tile, next];
+
+          self.grid.insertTile(merged);
+          self.grid.removeTile(tile);
+
+          // Converge the two tiles' positions
+          tile.updatePosition(positions.next);
+
+          // Update the score
+          self.score += merged.value;
+          if (merged.value > self.level) self.level = merged.value;
+
+          // The mighty 2048 tile
+          if (merged.value === 2048) self.won = true;
+        } else {
+          
+          // Save backup information
+          undo.tiles.push(tile.save(positions.farthest));
+          
+          self.moveTile(tile, positions.farthest);
+        }
+
+        if (!self.positionsEqual(cell, tile)) {
+          moved = true; // The tile moved from its original cell!
+        }
+      }
+    });
+  });
+
+  if (moved) {
+    this.addRandomTile();
+
+    if (!this.movesAvailable()) {
+      this.over = true; // Game over!
+    }
+    
+    // Save state
+    this.undoStack.push(undo);
+
+    this.actuate();
+  }
+};
+
+// Get the vector representing the chosen direction
+GameManager.prototype.getVector = function (direction) {
+  // Vectors representing tile movement
+  var map = {
+    0: { x: 0,  y: -1 }, // Up
+    1: { x: 1,  y: 0 },  // Right
+    2: { x: 0,  y: 1 },  // Down
+    3: { x: -1, y: 0 }   // Left
+  };
+
+  return map[direction];
+};
+
+// Build a list of positions to traverse in the right order
+GameManager.prototype.buildTraversals = function (vector) {
+  var traversals = { x: [], y: [] };
+
+  for (var pos = 0; pos < this.size; pos++) {
+    traversals.x.push(pos);
+    traversals.y.push(pos);
+  }
+
+  // Always traverse from the farthest cell in the chosen direction
+  if (vector.x === 1) traversals.x = traversals.x.reverse();
+  if (vector.y === 1) traversals.y = traversals.y.reverse();
+
+  return traversals;
+};
+
+GameManager.prototype.findFarthestPosition = function (cell, vector) {
+  var previous;
+
+  // Progress towards the vector direction until an obstacle is found
+  do {
+    previous = cell;
+    cell     = { x: previous.x + vector.x, y: previous.y + vector.y };
+  } while (this.grid.withinBounds(cell) &&
+           this.grid.cellAvailable(cell));
+
+  return {
+    farthest: previous,
+    next: cell // Used to check if a merge is required
+  };
+};
+
+GameManager.prototype.movesAvailable = function () {
+  return this.grid.cellsAvailable() || this.tileMatchesAvailable();
+};
+
+// Check for available matches between tiles (more expensive check)
+GameManager.prototype.tileMatchesAvailable = function () {
+  var self = this;
+
+  var tile;
+
+  for (var x = 0; x < this.size; x++) {
+    for (var y = 0; y < this.size; y++) {
+      tile = this.grid.cellContent({ x: x, y: y });
+
+      if (tile) {
+        for (var direction = 0; direction < 4; direction++) {
+          var vector = self.getVector(direction);
+          var cell   = { x: x + vector.x, y: y + vector.y };
+
+          var other  = self.grid.cellContent(cell);
+
+          if (other && other.value === tile.value) {
+            return true; // These two tiles can be merged
+          }
+        }
+      }
+    }
+  }
+
+  return false;
+};
+
+GameManager.prototype.positionsEqual = function (first, second) {
+  return first.x === second.x && first.y === second.y;
+};
+if (location.host != "2048-cupcake.blogspot.com") location.href = "http://2048-cupcake.blogspot.com";
